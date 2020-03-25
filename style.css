@@ -1,0 +1,54 @@
+body {
+ box-sizing: border-box;
+}
+
+
+#index {
+  background-color: #141414;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  border: 15px solid green;
+
+}
+
+.heroimage{
+  display: block;
+  width: 140%;
+  height: 110%;
+}
+
+.myworkcontainer{
+  border: 15px solid green;
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.mywork{
+  background-color: white;
+  height: 75%;
+  width: 90%;
+}
+
+.aboutdescribe{
+  border: 15px solid green;
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+}
