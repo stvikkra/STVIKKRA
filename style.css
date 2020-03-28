@@ -67,6 +67,29 @@ p {
   padding-left: 0;
 }
 
+/* navigation styles */
+
+.navigation{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1;
+}
+
+#inverse_nav{
+  background-color: white;
+}
+
+#case_studies_nav{
+  grid-column-start: 10;
+  grid-column-end: 13
+
+}
+
 /* footer styles */
 
 footer {
@@ -116,6 +139,76 @@ footer {
   color: white;
   grid-row-start: 6;
   grid-row-end: 7;
+}
+
+/* Index */
+
+
+#index {
+  background-color: #141414;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+#pinkh1 {
+  color: #FF537C;
+  font-family: 'Oswald', sans-serif;
+  font-size: 61.04px;
+  padding-left: 10%;
+}
+
+#introstatement{
+  margin-top: 10%;
+}
+
+.hero {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  display: flex;
+
+}
+
+.heroimage{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 5%;
+}
+
+.myworkcontainer{
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.mywork{
+  background-color: white;
+  height: 75%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+
+}
+
+.aboutdescribe{
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+}
+
+.aboutme{
+  align-self: flex-end;
+  margin-bottom: 5%;
 }
 
 /* Case Studies */
@@ -198,72 +291,14 @@ footer {
   color: #FF537C;
 }
 
-/* Index */
+/* About */
 
 
-#index {
+#aboutwrap {
   background-color: #141414;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(12, 1fr);
   width: 100vw;
   height: 100vh;
-}
-
-#pinkh1 {
-  color: #FF537C;
-  font-family: 'Oswald', sans-serif;
-  font-size: 61.04px;
-  padding-left: 10%;
-}
-
-#introstatement{
-  margin-top: 10%;
-}
-
-.hero {
-  grid-column-start: 1;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: span 2;
-  display: flex;
-
-}
-
-.heroimage{
-  max-width: 100%;
-  max-height: 100%;
-  margin-left: 5%;
-}
-
-.myworkcontainer{
-  grid-column-start: 8;
-  grid-column-end: 13;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-.mywork{
-  background-color: white;
-  height: 75%;
-  width: 90%;
-  display: flex;
-  align-items: center;
-
-}
-
-.aboutdescribe{
-  grid-column-start: 8;
-  grid-column-end: 13;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  display: grid;
-}
-
-.aboutme{
-  align-self: flex-end;
-  margin-bottom: 5%;
 }
