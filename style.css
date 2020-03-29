@@ -57,9 +57,17 @@ h3{
   color: #FF537C;
 }
 
+h6{
+  font-family: 'Prompt', sans-serif;
+  font-style: italic;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
 p {
   font-family: 'Prompt', sans-serif;
   font-size: 16px;
+  line-height: 200%;
 }
 
 .description_display {
@@ -305,17 +313,16 @@ footer {
 .about_wrapper_master {
   background-color: white;
   width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
-.welcome {
+#welcome {
   width: 100vw;
   height: 100vh;
-  grid-column-start: 0;
-  grid-column-end: 13;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -430,4 +437,30 @@ footer {
   padding: 0;
   width: 35px;
   height: 35px;
+}
+
+.beginnings {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  border: 10px solid green;
+}
+
+#beg1{
+  grid-column: 2 / 6;
+  grid-row: 1 / 6;
+}
+
+.elysium_contain{
+  grid-column: 8 / 12;
+  grid-row: 1 / 2;
+  border: 10px solid blue;
+}
+
+#elysium{
+  grid-column: 8 / 12;
+  width: 389.14px;
+  height: 443.84px;
 }
