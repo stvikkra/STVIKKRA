@@ -438,7 +438,7 @@ footer {
   height: 35px;
 }
 
-.beginnings {
+.viewportcontain{
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -454,7 +454,7 @@ footer {
   margin-left: 5%;
 }
 
-#beginh2{
+#h2about{
   color: #FF537C;
   align-self: flex-start;
   margin-left: 5%;
@@ -474,4 +474,8 @@ footer {
   align-self: center;
   width: 389.14px;
   height: 443.84px;
+}
+
+.creativework{
+  display: flex;
 }
