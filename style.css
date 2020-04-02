@@ -458,7 +458,7 @@ footer {
   color: #FF537C;
   align-self: flex-start;
   margin-left: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 
 
@@ -477,5 +477,9 @@ footer {
 }
 
 .creativework{
+  align-self: center;
+  width: 90%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
