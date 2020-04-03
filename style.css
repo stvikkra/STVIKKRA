@@ -62,12 +62,14 @@ h6{
   font-style: italic;
   font-size: 12.8px;
   line-height: 150%;
+  color: #6D7178;
 }
 
 p {
   font-family: 'Prompt', sans-serif;
   font-size: 16px;
   line-height: 200%;
+  color: #6D7178;
 }
 
 .description_display {
@@ -109,54 +111,40 @@ p {
 
 /* footer styles */
 
-footer {
+.footer_wrap {
     background-color: #6D7178;
+    width: 100%;
+    height: 21vh;
+    display: grid;
     grid-template-columns: repeat (24, 1fr);
+    grid-template-rows: 7vh 7vh 7vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#casestudies_footer{
-  grid-column-start: 1;
-  grid-column-end: span 24;
-  grid-row-start: 9;
-  grid-row-end: 10;
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: 1fr;
-  align-items: center;
-}
 
 .avi{
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 2 / 3;
+
 }
 
 .name_email{
-  grid-column-start: 4;
+  color: white;
+  line-height: 150%;
+  grid-column-start: 2;
   grid-column-end: 5;
-  display: grid;
-  grid-template-rows: repeat(8, 1fr);
+  grid-row: 2 / 3;
 }
 
 .socialmedialinks{
-  grid-column-start: 19;
-  grid-column-end: 24;
+  grid-column: 16 / 18;
+  grid-row: 2 / 3;
   display: flex;
   justify-content: space-between;
 }
 
-
-
-#footer_name{
-  line-height: 0;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.footer_email{
-  color: white;
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
 
 /* Index */
 
@@ -387,10 +375,10 @@ footer {
 
 .contacticons{
   grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-end: 7;
   grid-row-start: 10;
   grid-row-end: 12;
-  margin-left: 20%;
+  margin-left: 14%;
   align-self: flex-end;
   display: flex;
   justify-content: space-between;
@@ -448,32 +436,49 @@ footer {
   flex-wrap: wrap;
 }
 
-#begin{
+.about_p{
   width:40%;
   font-size: 14px;
   margin-left: 5%;
 }
 
-#h2about{
+.h2about{
   color: #FF537C;
   align-self: flex-start;
-  margin-left: 5%;
+  margin-left: 4.9%;
   padding-bottom: 3%;
 }
 
 
-.elysium_contain{
+.img_contain{
   width: 31%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+
 }
+
 
 #elysium{
   align-self: center;
   width: 389.14px;
   height: 443.84px;
+}
+
+#jacket{
+  align-self: center;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+
+
+#ducks{
+  align-self: center;
+  padding-bottom: 5%;
+
 }
 
 .creativework{
