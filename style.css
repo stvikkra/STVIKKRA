@@ -138,6 +138,11 @@ p {
   grid-row: 2 / 3;
 }
 
+.footer_email{
+  color: white;
+
+}
+
 .socialmedialinks{
   grid-column: 16 / 18;
   grid-row: 2 / 3;
