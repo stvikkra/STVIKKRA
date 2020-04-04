@@ -72,6 +72,15 @@ p {
   color: #6D7178;
 }
 
+
+.wrapper_master {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* navigation styles */
 
 .navigation{
@@ -88,14 +97,23 @@ p {
   grid-template-rows: 1 fr;
 }
 
-#case_studies_nav{
+#hamburger_menu{
+  justify-self: end;
+  width: 31px;
+  height: 23px;
+}
+
+.main_nav{
   color: #C4C4C4;
-  grid-column-start: 20;
+  grid-column-start: 21;
   grid-column-end: 25;
 }
 
 #header_name{
   color: white;
+  justify-self: start;
+  padding-left: 5%;
+  margin: 0;
   grid-column-start: 2;
   grid-column-end: 6;
 }
@@ -320,15 +338,6 @@ p {
 }
 
 /* About */
-
-.about_wrapper_master {
-  background-color: white;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 
 #welcome {
   width: 100vw;
