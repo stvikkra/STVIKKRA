@@ -7,6 +7,7 @@ body {
 /* unvisited link */
 a:link {
   color: #FF537C;
+  text-decoration: none;
 }
 
 /* visited link */
@@ -24,9 +25,6 @@ a:active {
   color: #C4C4C4;
 }
 
-a:link {
-  text-decoration: none;
-}
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -86,6 +84,7 @@ p {
 .navigation{
   position: fixed;
   background-color: #141414;
+  line-height: 70px;
   top: 0;
   left: 0;
   right: 0;
@@ -95,12 +94,6 @@ p {
   align-items: center;
   grid-template-columns: repeat(24, 1fr);
   grid-template-rows: 1 fr;
-}
-
-#hamburger_menu{
-  justify-self: end;
-  width: 31px;
-  height: 23px;
 }
 
 .main_nav{
@@ -118,6 +111,57 @@ p {
   grid-column-end: 6;
 }
 
+/* sub nav for case studies */
+
+.menu{
+  position: fixed;
+  background-color: #6D7178;
+  width: 70%;
+  top: 10%;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+#toggle{
+  display: none;
+}
+
+label{
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin-left: 40%;
+}
+
+.menu a:link{
+  color: #E5E5E5;
+}
+
+.menu a:visited{
+  color: #E5E5E5;
+}
+
+.menu a:hover{
+  color: white;
+  font-weight: 600;
+}
+
+#toggle:checked + .menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submenu_h4{
+  color: #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+
+.divider{
+  font-size: 25px;
+  color: #E5E5E5;
+}
 /* footer styles */
 
 .footer_wrap {
