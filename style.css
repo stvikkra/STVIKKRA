@@ -41,7 +41,7 @@ h4 {
   padding-left: 20%;
   margin-right: 10%;
   line-height: 200%;
-  color: white;
+  color: #6D7178;
 }
 
 h2{
@@ -70,15 +70,6 @@ p {
   font-size: 16px;
   line-height: 200%;
   color: #6D7178;
-}
-
-.description_display {
-  font-family: 'Prompt', sans-serif;
-  font-size: 20px;
-  line-height: 150%;
-  margin: 0;
-  padding-top: 5%;
-  padding-left: 0;
 }
 
 /* navigation styles */
@@ -150,6 +141,17 @@ p {
   justify-content: space-between;
 }
 
+#footer_name{
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  width: 75%;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 0%;
+  margin-bottom: 5%;
+}
 
 /* Index */
 
@@ -172,6 +174,7 @@ p {
 
 #introstatement{
   margin-top: 10%;
+  color: white;
 }
 
 .hero {
@@ -225,18 +228,19 @@ p {
 
 
 #casestudieswrap {
-  background-color: #141414;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-  width: 100vw;
+  grid-template-rows: repeat(20, 5vh);
 }
 
 .case_study_title_wrap {
   grid-column-start: 1;
   grid-column-end: span 13;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 5;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -253,14 +257,26 @@ p {
 #case_study_title {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  color: #6D7178;
   justify-self: center;
 }
 
+.description_display {
+  font-family: 'Prompt', sans-serif;
+  width: 100%;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 2%;
+  margin-bottom: 5%;
+}
+
 .nourishwrap {
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 6;
-  grid-row-start: 3;
-  grid-row-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 16;
   display: grid;
 
 }
@@ -268,6 +284,7 @@ p {
 .nourish_display{
   max-width: 100%;
   max-height: 100%;
+
 }
 
 .find_display{
@@ -277,27 +294,28 @@ p {
 
 .findwrap {
   grid-column-start: 8;
-  grid-column-end: 12;
-  grid-row-start: 3;
-  grid-row-end: 7;
+  grid-column-end: 11;
+  grid-row-start: 8;
+  grid-row-end: 16;
   display: grid;
 }
 
 
 .view_whitepink{
-  align-self: end;
-  width: 20%;
-  background-color: white;
+  grid-row: 4 / 7;
+  width: 30%;
+  height: 200%;
+  background-color: #FFDDE5;
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   border-radius: 10px;
 }
 
 #view_button_text{
-  font-family: 'Prompt', sans-serif;
-  font-size: 20px;
   padding: 0;
-  margin: 0;
+  margin-left: 5%;
   color: #FF537C;
 }
 
