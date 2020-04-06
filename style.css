@@ -35,6 +35,7 @@ h1 {
 h2{
   font-family: 'Oswald', sans-serif;
   font-size: 48.83px;
+  color: #6D7178;
 }
 
 h3{
@@ -77,6 +78,8 @@ p {
   color: #6D7178;
 }
 
+/* Wrap Classes */
+
 .wrapper_master {
   background-color: white;
   width: 100%;
@@ -103,12 +106,20 @@ p {
   grid-template-rows: repeat(20, 5vh);
 }
 
+.viewportcontain_3col{
+  width: 100vw;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(25, 6vh);
+}
 
 
 /* navigation styles */
 
 .navigation{
   position: fixed;
+  z-index: 500;
   background-color: #141414;
   line-height: 70px;
   top: 0;
@@ -581,36 +592,37 @@ label{
 /* Nourish */
 
 #nourish_front_title{
-  grid-column: 3 / 6;
+  grid-column: 2 / 6;
   grid-row: 4 / 6;
 }
 
 #nourish_front_mobile{
   grid-column: 15 / 24;
-  grid-row: 3 / 6;
-  width: 120%;
+  grid-row: 4 / 6;
+  width: 110%;
 }
 
 .nourish_text{
-  grid-column: 3 / 11;
+  grid-column: 2 / 11;
   grid-row: 8 / 15;
 }
 
 .nourish_cta{
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
   background-color: #398A6A;
+  grid-column: 2 / 6;
+  grid-row: 17/ 19;
 }
 
 .nourish_cta_text{
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
-#prototype_cta{
-  grid-column: 3 / 7;
-  grid-row: 16/ 18;
-}
 
 /* Problem and Solution */
 
@@ -666,6 +678,14 @@ label{
 
 /* Key Takeaways */
 
+#keytakeaway_master{
+  width: 100vw;
+  height: 110vh;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(22, 5vh);
+}
+
 #keytakeaways{
   color: #6D7178;
   padding: 0;
@@ -696,7 +716,7 @@ label{
   padding: 0;
   margin: 0;
   grid-column: 1 / 5;
-  grid-row: 14 / 15;
+  grid-row: 16 / 17;
 }
 
 #features_title{
@@ -742,7 +762,7 @@ label{
 
 #meat{
   grid-column: 2 / 12;
-  grid-row: 16 / 20;
+  grid-row: 19 / 22;
 }
 
 #meat_img{
@@ -772,7 +792,7 @@ label{
 
 #veg{
   grid-column: 14 / 24;
-  grid-row: 16 / 20;
+  grid-row: 19 / 22;
 }
 
 #veg_img{
@@ -786,15 +806,14 @@ label{
 
 #demo_title{
   grid-column: 2 / 4;
-  grid-row: 3 / 4;
-  color: #6D7178;
+  grid-row: 4 / 5;
   padding: 0;
   margin: 0;
 }
 
 .demo_text{
   grid-column: 2 / 11;
-  grid-row: 7 / 11;
+  grid-row: 8 / 11;
 }
 
 /* img slider */
@@ -802,7 +821,7 @@ label{
 
 .slide_container{
     grid-column: 14 / 24;
-    grid-row: 4 / 18;
+    grid-row: 6 / 18;
 		margin-top: 20px;
     position: relative;
 	  user-select: none;
@@ -824,7 +843,7 @@ label{
 	height: 11px;
 	position: absolute;
 	text-align: center;
-	z-index: 99;
+	z-index: 60;
 	cursor: default;
 }
 
@@ -862,3 +881,37 @@ label{
 @keyframes scroll{
 	0%{	opacity:.4;}
 	100%{opacity:1}
+}
+
+/* Competitive Analysis */
+
+#analysis_title {
+  grid-column: 2 / 10;
+  grid-row: 3 / 5;
+  padding: 0;
+  margin: 0;
+}
+
+.comp_img_contain{
+  grid-column: 13 / 18;
+  grid-row: 3 / 20;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.comp_img{
+  padding-bottom: 20%;
+}
+
+.analysis_text{
+  grid-column: 2 / 11;
+  grid-row: 6 / 15;
+}
+
+/* Personas */
+
+.persona_title{
+  grid-column: 2 / 6;
+  grid-row: 2 / 4;
+}
