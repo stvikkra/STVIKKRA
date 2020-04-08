@@ -915,3 +915,30 @@ label{
   grid-column: 2 / 6;
   grid-row: 2 / 4;
 }
+
+.left_col{
+  grid-column: 2 / 4;
+  display: flex;
+}
+
+.center_col{
+  grid-column: 6 / 8;
+  display: flex;
+}
+
+.right_col{
+  grid-column: 10 / 12;
+  display: flex;
+}
+
+.persona_detail{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(10, 10vh);
+}
+
+#alex{
+
+  
+
+}
