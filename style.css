@@ -1138,27 +1138,27 @@ label{
 }
 
 #story6{
-  grid-column: 13 / 22;
+  grid-column: 14 / 23;
   grid-row: 9 / 11;
 }
 
 #story7{
-  grid-column: 13 / 22;
+  grid-column: 14 / 23;
   grid-row: 12 / 14;
 }
 
 #story8{
-  grid-column: 13 / 22;
+  grid-column: 14 / 23;
   grid-row: 15 / 17;
 }
 
 #story9{
-  grid-column: 13 / 22;
+  grid-column: 14 / 23;
   grid-row: 18 / 20;
 }
 
 #story10{
-  grid-column: 13 / 22;
+  grid-column: 14 / 23;
   grid-row: 21 / 23;
 }
 
@@ -1170,7 +1170,7 @@ label{
 }
 
 .story_caption{
-  padding-top: 5%;
-  grid-column: 13 / 22;
+  padding-top: 3%;
+  grid-column: 14 / 23;
   grid-row: 23 / 24;
 }
