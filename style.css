@@ -101,7 +101,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .viewportcontain_demo{
@@ -197,6 +197,33 @@ p {
   grid-column-start: 2;
   grid-column-end: 6;
 }
+
+/* Nav bar link */
+
+a.headlink:link{
+  color: white;
+}
+
+a.headlink:visited{
+  color: white;
+}
+
+a.headlink:hover{
+  color: #FF537C;
+}
+
+a.headlink_nourish:link{
+  color: white;
+}
+
+a.headlink_nourish:visited{
+  color: white;
+}
+
+a.headlink_nourish:hover{
+  color: #398A6A;
+}
+
 
 /* sub nav for case studies */
 
@@ -640,6 +667,18 @@ label{
 }
 
 /* Nourish */
+
+a.nourish_link:link{
+  color: white;
+}
+
+a.nourish_link:visited{
+  color: white;
+}
+
+a.nourish_link:hover{
+  color: #7CFFAE;
+}
 
 #nourish_front_title{
   grid-column: 2 / 6;
@@ -1265,16 +1304,16 @@ label{
 
 .flow_title{
   grid-column: 2 / 12;
-  grid-row: 4 / 5;
+  grid-row: 2 / 5;
 }
 
 #flow_cta{
   grid-column: 2 / 6;
-  grid-row: 8 / 10;
+  grid-row: 10 / 12;
 }
 
 .flowtext{
-  grid-column: 12 / 23;
+  grid-column: 2 / 13;
   grid-row: 4 / 9;
   margin-top: 3%;
 }
@@ -1396,7 +1435,7 @@ label{
 
 /* Conclusion */
 
-#conclusion{
+#conclusion_nav{
   background-color: #F4F4F4;
 }
 
