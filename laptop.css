@@ -348,9 +348,9 @@
   .mywork{
     grid-column-start: 9;
     grid-column-end: 14;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: 5;
-    margin-top: 5%;
+    margin-bottom: 10%;
     background-color: white;
     width: 100%;
     display: flex;
@@ -611,7 +611,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   #elysium{
@@ -629,7 +628,6 @@
   #ducks{
     align-self: center;
     padding-bottom: 5%;
-
   }
 
   .creativework{
@@ -639,6 +637,7 @@
     align-items: center;
     justify-content: space-between;
   }
+
 
   /* Nourish */
 

@@ -150,26 +150,25 @@
     left: 0;
     right: 0;
     width: 100vw;
-    height: 10%;
-    display: grid;
+    height: 5%;
+    display: flex;
     align-items: center;
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: 1 fr;
+    justify-content: center;
   }
 
   .main_nav{
+    display: none;
     color: #C4C4C4;
-    grid-column-start: 21;
+    grid-column-start: 16;
     grid-column-end: 25;
   }
 
   #header_name{
     color: white;
-    justify-self: start;
-    padding-left: 5%;
     margin: 0;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    font-size: 27.34px;
+    grid-column-start: 3;
+    grid-column-end: 9;
   }
 
   /* Nav bar link */
@@ -310,7 +309,7 @@
   #index {
     background-color: #141414;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(20, 5vh);
     width: 100vw;
     height: 100vh;
@@ -327,6 +326,10 @@
 
   #introstatement{
     color: white;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+
   }
 
   .hero {
@@ -343,7 +346,7 @@
   }
 
   .mywork{
-    grid-column: 2 / 6;
+    grid-column: 3 / 12;
     grid-row: 18 / 19;
     height: 10vh;
     background-color: white;
@@ -354,15 +357,20 @@
   }
 
   .aboutdescribe{
-    grid-row: 10 / 11;
-    grid-column: 2 / 11;
+    grid-row: 11 / 17;
+    grid-column: 1 / 25;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
 
   .aboutme{
     padding: 0;
     margin: 0;
-    grid-column: 8 / 12;
+    grid-column: 14 / 23;
     grid-row: 18 / 19;
     height: 10vh;
     background-color: white;
@@ -475,89 +483,77 @@
 
   #welcome {
     width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .blackandwhite {
+    align-self: center;
+    margin-top: 25%;
     max-width: 100%;
-    height: 100%;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 12;
-    align-self: flex-end;
+    height: 400px;
   }
 
   #mynameis{
     color: #4A4A4A;
     line-height: 200%;
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 5;
-    padding-left: 10%;
+    width: 75%;
     margin: 0;
+    padding-left: 0;
+    padding-top: 5%;
   }
 
   #channel{
     color: #4A4A4A;
     line-height: 200%;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    margin: 0;
+    width: 75%;
+    margin-left: 0;
+    margin-top: 10%;
     padding: 0;
 
   }
 
   #intro_about{
     color: #4A4A4A;
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 7;
-    padding-left: 10%;
+    padding: 0;
+    margin-top: 5%;
+    width: 75%;
     line-height: 200%;
   }
 
   #contact_me{
     color: #4A4A4A;
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 9;
-    padding-left: 10%;
+    width: 75%;
+    margin-top: 5%;
+    padding: 0;
     line-height: 200%;
   }
 
 
   #hobbies{
     color: #4A4A4A;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    grid-row-start: 7;
+    width: 75%;
+    margin-top: 5%;
     line-height: 200%;
   }
 
   .contacticons{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 10;
-    grid-row-end: 12;
-    margin-left: 14%;
-    align-self: flex-end;
+    margin-left: 0;
+    margin-top: 5%;
+    padding: 0;
+    align-self: center;
+    width: 75%;
     display: flex;
     justify-content: space-between;
   }
 
   .musicicons{
-    grid-column-start: 9;
-    grid-column-end: 11;
-    grid-row-start: 8;
-    grid-row-end: 10;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
   }
 
@@ -572,13 +568,12 @@
   }
 
   #evenmore{
+    display: none;
     color: #FF537C;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end: 12;
-    padding-left: 15%;
-    align-self: flex-end;
+    align-self: center;
+    width: 75%;
+    padding: 0;
+    margin: 0;
   }
 
   #more{
