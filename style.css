@@ -292,8 +292,8 @@ label{
 
 
 .avi{
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row: 2 / 3;
 
 }
@@ -301,8 +301,9 @@ label{
 .name_email{
   color: white;
   line-height: 150%;
-  grid-column-start: 2;
-  grid-column-end: 5;
+  margin-left: 5%;
+  grid-column-start: 3;
+  grid-column-end: 9;
   grid-row: 2 / 3;
 }
 
@@ -312,7 +313,7 @@ label{
 }
 
 .socialmedialinks{
-  grid-column: 16 / 18;
+  grid-column: 19 / 24;
   grid-row: 2 / 3;
   display: flex;
   justify-content: space-between;
