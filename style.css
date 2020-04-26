@@ -229,6 +229,10 @@ a.headlink_nourish:hover{
 
 /* sub nav for case studies */
 
+.mobile_nav{
+  display: none;
+}
+
 .menu{
   position: fixed;
   background-color: #6D7178;
@@ -306,7 +310,8 @@ label{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row: 2 / 3;
-
+  max-height: 90%;
+  max-width: 90%;
 }
 
 .name_email{
@@ -461,7 +466,7 @@ label{
   grid-column-start: 3;
   grid-column-end: 6;
   grid-row-start: 8;
-  grid-row-end: 17;
+  grid-row-end: 19;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -483,7 +488,7 @@ label{
   grid-column-start: 8;
   grid-column-end: 11;
   grid-row-start: 8;
-  grid-row-end: 17;
+  grid-row-end: 19;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

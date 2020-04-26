@@ -172,6 +172,10 @@
     font-size: 27.34px;
   }
 
+  .mobile_nav{
+    display: block;
+  }
+
   /* Nav bar link */
 
   a.headlink:link{
@@ -232,6 +236,8 @@
   label{
     font-size: 25px;
     color: white;
+    position: fixed;
+    left: -35%;
     display: block;
     grid-row-start: 1;
     grid-column-start: 1;
@@ -443,7 +449,7 @@
 
   .description_display {
     font-family: 'Prompt', sans-serif;
-    width: 100%;
+    width: 75%;
     font-size: 14px;
     line-height: 150%;
     margin: 0;
@@ -453,8 +459,8 @@
   }
 
   .nourishwrap {
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 13;
     grid-row-start: 7;
     grid-row-end: 13;
     display: grid;
@@ -473,10 +479,10 @@
   }
 
   .findwrap {
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 13;
     grid-row-start: 19;
-    grid-row-end: 26;
+    grid-row-end: 25;
     display: grid;
   }
 
