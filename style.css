@@ -198,6 +198,8 @@ p {
   grid-column-end: 6;
 }
 
+#mobile_nav{}
+
 /* Nav bar link */
 
 a.headlink:link{
@@ -277,19 +279,28 @@ label{
   font-size: 25px;
   color: #E5E5E5;
 }
+
 /* footer styles */
 
 .footer_wrap {
     background-color: #6D7178;
     width: 100%;
-    height: 21vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: 7vh 7vh 7vh;
+    grid-template-rows: 5vh 5vh 5vh;
     align-items: center;
     justify-content: space-around;
 }
 
+.name_avi{
+  grid-row: 1 / 4;
+  grid-column: 2 / 7;
+  width: 35%;
+  display: flex;
+  align-items: center;
+
+}
 
 .avi{
   grid-column-start: 2;
@@ -301,10 +312,7 @@ label{
 .name_email{
   color: white;
   line-height: 150%;
-  margin-left: 5%;
-  grid-column-start: 3;
-  grid-column-end: 9;
-  grid-row: 2 / 3;
+  margin-left: 20%;
 }
 
 .footer_email{
@@ -314,7 +322,7 @@ label{
 
 .socialmedialinks{
   grid-column: 19 / 24;
-  grid-row: 1 / 4;
+  grid-row: 1 / 5;
   display: flex;
   justify-content: space-between;
 }
@@ -322,7 +330,7 @@ label{
 #footer_name{
   color: white;
   font-family: 'Prompt', sans-serif;
-  width: 75%;
+  width: 100%;
   font-size: 20px;
   line-height: 150%;
   margin: 0;
@@ -407,7 +415,7 @@ label{
 #casestudieswrap {
   background-color: white;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(20, 5vh);
@@ -433,7 +441,7 @@ label{
 
 #case_study_title {
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  grid-row: 2 / 3;
   color: #4A4A4A;
   justify-self: center;
 }
@@ -453,8 +461,10 @@ label{
   grid-column-start: 3;
   grid-column-end: 6;
   grid-row-start: 8;
-  grid-row-end: 16;
-  display: grid;
+  grid-row-end: 17;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
@@ -473,15 +483,16 @@ label{
   grid-column-start: 8;
   grid-column-end: 11;
   grid-row-start: 8;
-  grid-row-end: 16;
-  display: grid;
+  grid-row-end: 17;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
 .view_whitepink{
-  grid-row: 4 / 7;
   width: 30%;
-  height: 200%;
+  height: 50px;
   background-color: #FFDDE5;
   display: flex;
   justify-content: center;
@@ -490,7 +501,7 @@ label{
   border-radius: 10px;
 }
 
-#view_button_text{
+.view_button_text{
   padding: 0;
   margin-left: 5%;
   color: #FF537C;

@@ -8,7 +8,7 @@
 
   h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 48.83px;
+    font-size: 39.06px;
     color: #4A4A4A;
   }
 
@@ -70,12 +70,11 @@
 
   .viewportcontain{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .viewportcontain_demo{
@@ -149,26 +148,28 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 100vw;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: flex-start;
   }
 
   .main_nav{
     display: none;
     color: #C4C4C4;
-    grid-column-start: 16;
-    grid-column-end: 25;
   }
 
   #header_name{
     color: white;
+    padding: 0;
     margin: 0;
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / 25;
+    grid-row: 1 / 1;
     font-size: 27.34px;
-    grid-column-start: 3;
-    grid-column-end: 9;
   }
 
   /* Nav bar link */
@@ -198,7 +199,7 @@
   }
 
 
-  /* sub nav for case studies */
+  /* sub nav */
 
   .menu{
     position: fixed;
@@ -210,15 +211,30 @@
     display: none;
   }
 
+  #mobile_subnav{
+    position: fixed;
+    background-color: #6D7178;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 20%;
+    top: 10%;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+
   #toggle{
     display: none;
   }
+
 
   label{
     font-size: 25px;
     color: white;
     display: block;
-    margin-left: 40%;
+    grid-row-start: 1;
+    grid-column-start: 1;
   }
 
   .menu a:link{
@@ -243,7 +259,7 @@
     color: #E5E5E5;
     font-weight: 300;
     padding: 0;
-    margin: 0;
+    margin-left: 8%;
   }
 
   .divider{
@@ -253,30 +269,30 @@
   /* footer styles */
 
   .footer_wrap {
-      background-color: #6D7178;
+      background-color: white;
       width: 100%;
-      height: 21vh;
-      display: grid;
-      grid-template-columns: repeat (24, 1fr);
-      grid-template-rows: 7vh 7vh 7vh;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-around;
   }
-
 
   .avi{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row: 2 / 3;
-
+    align-self: center;
+    width: 125px;
+    height: 125px;
   }
 
-  .name_email{
+  .name_avi{
+    background-color: #6D7178;
     color: white;
     line-height: 150%;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row: 2 / 3;
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
   }
 
   .footer_email{
@@ -284,23 +300,27 @@
 
   }
 
+  .name_email{
+    margin-left: 3%;
+  }
+
   .socialmedialinks{
-    grid-column: 16 / 18;
-    grid-row: 2 / 3;
+    background-color: #484B50;
+    width: 100%;
+    height: 5em;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
   }
 
   #footer_name{
     color: white;
     font-family: 'Prompt', sans-serif;
-    width: 75%;
+    width: 100%;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 200%;
     margin: 0;
-    padding-top: 5%;
-    padding-left: 0%;
-    margin-bottom: 5%;
+    padding: 0;
   }
 
   /* Index */
@@ -390,15 +410,15 @@
   #casestudieswrap {
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(20, 5vh);
+    grid-template-rows: repeat(30, 5vh);
   }
 
   .case_study_title_wrap {
     grid-column-start: 1;
-    grid-column-end: span 13;
+    grid-column-end: 13;
     grid-row-start: 4;
     grid-row-end: 5;
     display: grid;
@@ -415,7 +435,7 @@
   }
 
   #case_study_title {
-    grid-column: 2 / 3;
+    grid-column: 1 / 13;
     grid-row: 1 / 2;
     color: #4A4A4A;
     justify-self: center;
@@ -433,10 +453,10 @@
   }
 
   .nourishwrap {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start: 8;
-    grid-row-end: 16;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end: 13;
     display: grid;
 
   }
@@ -453,10 +473,10 @@
   }
 
   .findwrap {
-    grid-column-start: 8;
-    grid-column-end: 11;
-    grid-row-start: 8;
-    grid-row-end: 16;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 19;
+    grid-row-end: 26;
     display: grid;
   }
 
@@ -483,7 +503,7 @@
 
   #welcome {
     width: 100vw;
-    height: 200vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -588,53 +608,88 @@
   }
 
   .about_p{
-    width:40%;
-    font-size: 14px;
-    margin-left: 5%;
-  }
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+}
 
   .h2about{
     color: #FF537C;
-    align-self: flex-start;
-    margin-left: 4.9%;
-    padding-bottom: 3%;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    align-self: center;
   }
 
   .img_contain{
-    width: 31%;
+    width: 75%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
 
+  .creative_img_contain{
+    width: 75%;
+    height: 100%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #elysium{
     align-self: center;
-    width: 389.14px;
-    height: 443.84px;
+    width: 289.14px;
+    height: 343.84px;
+    margin-top: 5%;
+  }
+
+  #earlycreative{
+    margin-bottom: 5%;
   }
 
   #jacket{
     align-self: center;
-    padding-bottom: 5%;
     width: 100%;
+  }
+
+  #jacket_text{
+    padding-bottom: 10%;
   }
 
   #ducks{
     align-self: center;
-    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 15%;
+  }
 
+  .img_caption{
+  padding-bottom: 20%;
   }
 
   .creativework{
+    margin-top: 15%;
     align-self: center;
-    width: 90%;
+    width: 75%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
+
+  #earlycreative{
+    margin-top: 25%;
+  }
+
+  .creativephoto{
+    width: 100%;
+  }
+
 
   /* Nourish */
 

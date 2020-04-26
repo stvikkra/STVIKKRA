@@ -16,13 +16,20 @@
   <body>
 
     <div class="wrapper_master">
+
       <nav class="navigation">
-        <h3 id="header_name"><a class="headlink" href="index.html"> STVI KKRA</a> </h3>
-        <h4 class="main_nav"><a href="casestudies.html">Case Studies</a></h4>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" class="hamburger_menu" id="toggle">
+        <div class="menu" id="mobile_subnav">
+            <h4 class="submenu_h4"><a href="index.html" class="subnav_color">Home</a></h4>
+            <h4 class="submenu_h4"><a href="casestudies.html">Case Studies</a></h4>
+        </div>
+          <h3 id="header_name"><a class="headlink" href="index.html"> STVI KKRA</a> </h3>
+          <h4 class="main_nav"><a href="casestudies.html">Case Studies</a></h4>
       </nav>
 
       <section id="welcome">
-        
+
         <img src="images/cartoon.png" alt="B&W" class="blackandwhite"/>
         <h4 id="mynameis">My name is Stevie Kukura <br /> I am ...</h3>
         <p id="intro_about">24 years old, queer, and vegan. I currently reside in Knoxville, TN but I am looking to re-locate to California in the next couple of years. </p>
@@ -60,25 +67,25 @@
        </div>
     </section>
 
-    <section class="viewportcontain">
+    <section class="viewportcontain" id="earlycreative">
       <h2 class="h2about">Early Creative Work</h2>
       <div class="creativework">
 
-        <div class="img_contain">
+        <div class="creative_img_contain">
           <img src="images/self.png" alt="self portrait" class="creativephoto"/>
           <h6> Self Portrait, 2014 </h6>
         </div>
 
-        <div class="img_contain">
+        <div class="creative_img_contain">
           <img src="images/freedom.png" alt="freedom" class="creativephoto"/>
           <h6> Art for a song I wrote, 2016</h6>
         </div>
 
-        <div class="img_contain">
+        <div class="creative_img_contain">
           <img src="images/brainbath.png" alt="brainbath" class="creativephoto"/>
           <h6> Album Cover, 2017 </h6>
       </div>
-
+    </div>
     </section>
 
     <section class="viewportcontain">
@@ -88,29 +95,34 @@
         </p>
         <div class="img_contain">
         <img src="images/ducks.png" alt="Ducks" id="ducks"/>
-        <h6>Me with a mullet singing to ducks</h6>
+        <h6 class="img_caption">Me with a mullet singing to ducks</h6>
        </div>
      </section>
 
      <section class="viewportcontain">
        <h2 class="h2about">Growth and Exploration</h2>
-     <p class="about_p">
+     <p class="about_p" id="jacket_text">
        While working with animals, the desire to design and create never went away and I became unhappy in the position I was in. I never stopped using Adobe Illustrator to create digital art. I never stopped writing songs. The creativity inside me has never gone away and this is why I am back on the path I started years ago. There are so many ways to influence and impact the world through design and I plan on using my creative skills to make the world a better place. Enrolling in the Bloc platform has allowed me to brush up on my coding and visual design skills. I now have the toolbox I need to flourish and thrive in a professional world. In this program I experimented with a wide variety of design and coding tools that really shifted my view of modern web design and have made me incredibly excited to see its evolution. I look forward to getting to collaborate with you and other designers to gain more knowledge about the diverse field of Design.
      </p>
 
      <div class="img_contain">
      <img src="images/jacket.png" alt="Chattanooga" id="jacket"/>
-     <h6>Exploring in Chattanooga</h6>
+     <h6 class="img_caption">Exploring in Chattanooga</h6>
     </div>
 
     </section>
 
     <div class="footer_wrap">
-      <img src="images/mask_footer.png" alt="avi" class="avi"/>
 
-      <div class="name_email">
-      <h4 class="description_display" id="footer_name"> Stevie Kukura </h4>
-      <p class="footer_email">stvikkra@gmail.com</p>
+      <div class="name_avi">
+
+        <img src="images/mask_footer.png" alt="avi" class="avi"/>
+
+        <div class="name_email">
+          <h3 class="description_display" id="footer_name"> Stevie Kukura </h3>
+          <p class="footer_email">stvikkra@gmail.com</p>
+        </div>
+
       </div>
 
       <div class="socialmedialinks">
