@@ -946,11 +946,16 @@
   	}
 
   .slide_container #nav_slide{
-  	width: 100%;
-    bottom: 5%;
+  	width: 40%;
+    left: 43%;
+    height: 200px;
+    bottom: 0;
   	height: 11px;
   	position: absolute;
   	text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   	z-index: 60;
   	cursor: default;
   }

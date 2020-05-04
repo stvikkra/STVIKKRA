@@ -59,6 +59,7 @@
   }
 
 
+
   /* unvisited link */
   a:link {
     color: #FF537C;
@@ -82,16 +83,17 @@
 
   .title{
     color: #4A4A4A;
-    padding: 0;
-    margin-left: 4%;
+    margin: 0;
+    padding-left: 4%;
     width: 100%;
   }
+
 
   /* Wrap Classes */
 
   .wrapper_master {
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: auto;
     min-height: 100%;
     display: flex;
@@ -100,7 +102,7 @@
   }
 
   .viewportcontain{
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -118,7 +120,7 @@
   }
 
   .viewportcontain_grid{
-    width: 100vw;
+    width: 100%;
     border: 10px solid blue;
     height: 200vh;
     display: grid;
@@ -154,6 +156,16 @@
     background-color: #F4F4F4;
   }
 
+  .viewport_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50%;
+    background-color: #F4F4F4;
+  }
+
   .viewport_title_ext{
     display: flex;
     flex-direction: column;
@@ -165,8 +177,13 @@
   }
 
   .buffer{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
+  }
+
+  .buffer_2{
+    width: 100%;
+    height: 0;
   }
 
   /* navigation styles */
@@ -795,6 +812,10 @@
 
   /* Nourish */
 
+  #prototype_nav{
+    height: 170vh;
+  }
+
   a.nourish_link:link{
     color: white;
   }
@@ -822,7 +843,7 @@
   .nourish_text{
     justify-self: center;
     grid-column: 2 / 12;
-    grid-row: 28 / 30;
+    grid-row: 26 / 30;
   }
 
   .nourish_cta{
@@ -831,8 +852,8 @@
     justify-content: center;
     border-radius: 10px;
     background-color: #398A6A;
-    grid-row: 26 / 27;
-    grid-column: 3 / 11;
+    grid-row: 24 / 25;
+    grid-column: 2 / 12;
   }
 
   .nourish_cta_text{
@@ -843,6 +864,10 @@
 
 
   /* Problem and Solution */
+
+  #mobile_ps{
+    height: 100vh;
+  }
 
   .psheader{
     justify-self: "center";
@@ -860,6 +885,7 @@
     color: #4A4A4A;
     align-self: center;
     font-size: 27.34px;
+    padding-bottom: 5%;
   }
 
   #pstext{
@@ -869,6 +895,10 @@
   }
 
   /* Survey Responses */
+
+  #mobile_responses{
+    height: 110vh;
+  }
 
   #allgroups{
     width: 320px;
@@ -887,13 +917,17 @@
   }
 
   #responses_1{
-    grid-column: 2 / 22;
-    grid-row: 1 / 8;
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / 12;
+    grid-row: 2 / 8;
   }
 
   #responses_2{
+    margin: 0;
+    padding: 0;
     grid-column: 2 / 12;
-    grid-row: 5 / 12;
+    grid-row: 6 / 12;
   }
 
   /* Key Takeaways */
@@ -901,10 +935,10 @@
   #keytakeaway_master{
     width: 100vw;
     border: 10px solid blue;
-    height: 200vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 50px;
+    grid-template-rows: repeat(25, 50px);
   }
 
   #top_responses{
@@ -944,7 +978,7 @@
   }
 
   #features_text{
-    grid-column: 2 / 23;
+    grid-column: 2 / 12;
     width: 100%;
     grid-row: 6 / 10;
     font-size: 14px;
@@ -983,9 +1017,9 @@
     grid-column: 0 / 2;
     grid-row: 6 / 7;
     align-self: center;
-    width: 50px;
+    width: 75px;
     padding-top: 25%;
-    padding-left: 70%;
+    padding-left: 15%;
   }
 
   .stat_title{
@@ -993,17 +1027,19 @@
     color: white;
     font-weight: 600;
     padding-top: 1%;
+    padding-left: 5%;
     margin: 0;
-    grid-column: 2 / 10;
+    grid-column: 1 / 10;
     grid-row: 1 / 3;
   }
 
   .stat_description{
     color: white;
     font-size: 11.2px;
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
     line-height: 150%;
-    grid-column: 3 / 10;
+    grid-column: 3 / 11;
     grid-row: 5 / 6;
   }
 
@@ -1015,7 +1051,7 @@
   #veg_img{
     grid-column: 1 / 3;
     grid-row: 7 / 8;
-    width: 50px;
+    width: 75px;
     padding-left: 30%;
     align-self: center;
   }
@@ -1054,7 +1090,7 @@
   #demo_title{
     align-self: flex-start;
     width: 100%;
-    padding-top: 3%;
+    padding-top: 5%;
   }
 
   .income_title{
@@ -1126,7 +1162,7 @@
   	}
 
   #nav_slide{
-  	width: 100%;
+  	width: 100px;
     left: 33%;
     bottom: 5%;
   	height: 11px;
@@ -1199,11 +1235,24 @@
 
   /* Personas and Potential Users */
 
+  #persona_title{
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  #users_title{
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 5%;
+  }
+
   .user_subtext{
-    width: 90%;
+    width: 80%;
     margin: 0;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-left: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
 
@@ -1494,6 +1543,12 @@
 
   /* Wireframes */
 
+  #wireframe_title{
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 5%;
+  }
+
   .wireframe_contain{
     display: flex;
     width: 60%;
@@ -1513,6 +1568,13 @@
   }
 
   /* Preference Test */
+
+
+  #pref_title{
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 5%;
+  }
 
   .pref_contain{
     align-self: center;
