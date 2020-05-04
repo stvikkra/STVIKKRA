@@ -6,7 +6,7 @@ html{
 
 body {
   height: 100%;
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
@@ -251,6 +251,8 @@ a.headlink_nourish:hover{
   left: 0;
   right: 0;
   display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #toggle{
@@ -404,6 +406,14 @@ label{
   align-items: center;
 }
 
+.mywork:hover{
+    background-color: #FF537C;
+}
+
+.mywork:hover #pinkh1{
+  color: white;
+}
+
 .aboutdescribe{
   grid-column-start: 9;
   grid-column-end: 13;
@@ -421,7 +431,11 @@ label{
   margin-bottom: 5%;
 }
 
-.about_title{
+.aboutme:hover #about_title{
+  color: #C4C4C4;
+}
+
+#about_title{
   padding-left: 20%;
 }
 
@@ -668,6 +682,7 @@ label{
   padding: 0;
   align-self: flex-end;
 }
+
 
 #more{
   grid-column-start: 9;
@@ -1498,7 +1513,7 @@ a.nourish_link:hover{
 
 .avatar_final{
   width: 100%;
-  height: 80%;
+  height: 60%;
 }
 
 .example{

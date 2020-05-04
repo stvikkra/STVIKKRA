@@ -58,6 +58,28 @@
     color: #4A4A4A;
   }
 
+
+  /* unvisited link */
+  a:link {
+    color: #FF537C;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #FF537C;
+  }
+
+  /* mouse over link */
+  a:hover {
+
+  }
+
+  /* selected link */
+  a:active {
+    color: #C4C4C4;
+  }
+
   .title{
     color: #4A4A4A;
     padding: 0;
@@ -195,9 +217,6 @@
     color: white;
   }
 
-  a.headlink:hover{
-    color: #FF537C;
-  }
 
   a.headlink_nourish:link{
     color: white;
@@ -368,7 +387,6 @@
   }
 
   #pinkh1 {
-    color: #FF537C;
     font-family: 'Oswald', sans-serif;
     font-size: 21.88px;
     text-align: center;
@@ -404,8 +422,18 @@
     background-color: white;
     padding: 0;
     margin: 0;
+    border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+
+  .mywork:hover{
+      background-color: #FF537C;
+  }
+
+  .mywork:hover #pinkh1{
+    color: white;
   }
 
   .aboutdescribe{
@@ -425,13 +453,22 @@
     grid-column: 14 / 23;
     grid-row: 18 / 19;
     height: 10vh;
+    border-radius: 10px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .about_title{
+  .aboutme:hover{
+      background-color: #FF537C;
+  }
+
+  .aboutme:hover #about_title{
+    color: white;
+  }
+
+  #about_title{
     padding: 0;
     margin: 0;
 }
