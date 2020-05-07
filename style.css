@@ -372,7 +372,7 @@ label{
   background-color: #141414;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(10, 10vh);
+  grid-template-rows: repeat(50, 5vh);
   width: 100vw;
   height: 100vh;
 }
@@ -396,8 +396,8 @@ label{
 .hero {
   grid-column-start: 1;
   grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 19;
   display: flex;
 
 }
@@ -412,8 +412,8 @@ label{
 .mywork{
   grid-column-start: 9;
   grid-column-end: 14;
-  grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 10;
   margin-bottom: 10%;
   margin-top: 10%;
   background-color: white;
@@ -434,18 +434,18 @@ label{
 .aboutdescribe{
   grid-column-start: 9;
   grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 14;
   display: flex;
-  padding-top: 5%;
+  padding-top: 13%;
 }
 
 .aboutme{
   grid-column-start: 9;
   grid-column-end: 13;
-  grid-row-start: 10;
-  grid-row-end: 11;
-  margin-bottom: 5%;
+  grid-row-start: 17;
+  grid-row-end: 18;
+  padding-top: 8%;
 }
 
 .aboutme:hover #about_title{
@@ -470,8 +470,8 @@ label{
 .case_study_title_wrap {
   grid-column-start: 1;
   grid-column-end: span 13;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -725,13 +725,18 @@ label{
 }
 
 .img_contain{
-  width: 31%;
+  width: 64%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+}
+
+#elysium_img_contain{
+  width: 40%;
+  padding-left: 15%;
 }
 
 #elysium{
@@ -742,8 +747,9 @@ label{
 
 #jacket{
   align-self: center;
+  padding-top: 10%;
   padding-bottom: 5%;
-  width: 100%;
+  width: 55%;
 }
 
 #ducks{
@@ -759,6 +765,7 @@ label{
   align-items: center;
   justify-content: space-between;
 }
+
 
 /* Nourish */
 
@@ -966,6 +973,7 @@ a.nourish_link:hover{
   color: white;
   font-weight: 600;
   padding: 0;
+  padding-top: 5%;
   margin: 0;
   grid-column: 3 / 9;
   grid-row: 1 / 2;
@@ -1358,6 +1366,7 @@ a.nourish_link:hover{
   font-size: 12.8px;
   padding-left: 3%;
   margin-right: 3%;
+  width: 100%;
 }
 
 #story1{
