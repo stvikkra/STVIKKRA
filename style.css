@@ -1479,6 +1479,11 @@ a.nourish_link:hover{
   justify-content: space-around;
 }
 
+#wiretext{
+  grid-row: 2 / 5;
+  padding-top: 10%;
+}
+
 /* Branding */
 
 #branding_nav{

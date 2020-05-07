@@ -317,6 +317,39 @@
     height: 736px;
   }
 
+  #mobile_wireframe{
+    height: 250vh;
+  }
+
+  #mobile_wireframe_title{
+    background-color: #F4F4F4;
+    width: 100vw;
+    height: 42vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(50, 25px);
+  }
+
+  #wireframe_cta{
+    grid-column: 2 / 12;
+    grid-row: 10 / 12;
+  }
+
+  #wiretext{
+    grid-row: 2 / 5;
+    padding-top: 15%;
+  }
+
+  #mobile_pref{
+    height: 240vh;
+    display: flex;
+  }
+
+  .example{
+    align-self: center;
+    width: 80%;
+  }
+
 }
 
 
@@ -605,6 +638,65 @@
     height: 667px;
   }
 
+  #mobile_wireframe{
+    height: 275vh;
+  }
+
+  #mobile_wireframe_title{
+    background-color: #F4F4F4;
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(50, 25px);
+  }
+
+  #wireframe_cta{
+    grid-column: 2 / 12;
+    grid-row: 11 / 13;
+  }
+
+  #wiretext{
+    grid-row: 2 / 5;
+    padding-top: 15%;
+  }
+
+  #mobile_pref{
+    height: 275vh;
+    display: flex;
+  }
+
+  .example{
+    align-self: center;
+    width: 80%;
+  }
+
+  #feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 145vh;
+  }
+
+  .title_feedback{
+    width: 80%;
+    line-height: 300%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 17.5px;
+    color: #4A4A4A;
+  }
+
+  #mobile_attempts{
+    height: 320vh;
+    justify-content: space-evenly;
+  }
+
+  #mobile_refine{
+    height: 412vh;
+  }
+
 }
 
 /* Short mobile view, short width (Galaxy S5, Moto G4) */
@@ -891,15 +983,71 @@
       #flow_img{
         height: 640px;
       }
+
+      #mobile_wireframe{
+        height: 275vh;
+      }
+
+      #mobile_wireframe_title{
+        background-color: #F4F4F4;
+        width: 100vw;
+        height: 55vh;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(50, 25px);
+      }
+
+      #wireframe_cta{
+        grid-column: 2 / 12;
+        grid-row: 12 / 14;
+      }
+
+      #wiretext{
+        grid-row: 3 / 5;
+        padding-top: 15%;
+      }
+
+      #mobile_pref{
+        height: 275vh;
+        display: flex;
+      }
+
+      .example{
+        align-self: center;
+        width: 80%;
+      }
+
+      #feedback{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 150vh;
+      }
+
+      .title_feedback{
+        width: 80%;
+        line-height: 300%;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 600;
+        font-size: 17.5px;
+        color: #4A4A4A;
+      }
+
+      #mobile_attempts{
+        height: 325vh;
+        justify-content: space-evenly;
+      }
+
+      #mobile_refine{
+        height: 425vh;
+      }
 }
 
 /* (iphone 5, SE) */
 
 @media screen and (max-height: 568px) and (max-width: 320px){
 
-    h5{
-      font-size: 17.5px;
-    }
 
     .title{
       color: #4A4A4A;
@@ -969,7 +1117,7 @@
     }
 
     #mobile_flow{
-      height: 85vh;
+      height: 88vh;
     }
 
     .flow_img{
@@ -980,7 +1128,6 @@
 
     #flow_desc{
       grid-row: 2 / 5;
-      padding-top: 5%;
     }
 
     .flow_title{
@@ -997,12 +1144,12 @@
 
     #comp_cta{
       grid-column: 2 / 12;
-      grid-row: 13 / 14;
+      grid-row: 25 / 27;
     }
 
     #flow_cta{
       grid-column: 2 / 12;
-      grid-row: 9 / 10;
+      grid-row: 18 / 20;
     }
 
     .flowtext{
@@ -1012,7 +1159,8 @@
     }
 
     #comp_text{
-      padding-top: 15%
+      grid-row: 6 / 6;
+      padding-top: 5%;
     }
 
     .slide_container{
@@ -1324,12 +1472,12 @@
 
       #wireframe_cta{
         grid-column: 2 / 12;
-        grid-row: 6 / 7;
+        grid-row: 11 / 13;
       }
 
       #wiretext{
-        grid-row: 2 / 5;
-        padding-top: 7%;
+        grid-row: 3 / 5;
+        padding-top: 10%;
       }
 
       #mobile_pref{
@@ -1347,7 +1495,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 175vh;
+        height: 150vh;
       }
 
       .title_feedback{
@@ -1355,7 +1503,7 @@
         line-height: 300%;
         font-family: 'Prompt', sans-serif;
         font-weight: 600;
-        font-size: 17.5px;
+        font-size: 14px;
         color: #4A4A4A;
       }
 
