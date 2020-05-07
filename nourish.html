@@ -16,18 +16,18 @@
       <nav class="navigation">
         <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle">
-        <div class="menu">
+        <div class="menu" id="mobile_subnav_study">
             <h4 class="submenu_h4"><a href="#prototype_nav" class="subnav_color">Prototype</a></h4>
             <p class="divider">|</p>
             <h4 class="submenu_h4"><a href="#research_nav">Research</a></h4>
             <p class="divider">|</p>
-            <h4 class="submenu_h4"><a href="#info_nav">Information Architecture</a></h3>
+            <h4 class="submenu_h4"><a href="#info_nav">Information Architecture</a></h4>
             <p class="divider">|</p>
             <h4 class="submenu_h4"><a href="#branding_nav">Branding</a></h4>
             <p class="divider">|</p>
             <h4 class="submenu_h4"><a href="#conclusion_nav">Conclusion</a></h4>
         </div>
-        <h3 id="header_name"><a class="nourish_link" href="index.html">STVI KKRA</a> </h3>
+        <h3 id="header_name"><a class="nourish_link" href="index.html" target="_blank">STVI KKRA</a> </h3>
       </nav>
 
       <section class="viewportcontain_grid" id="prototype_nav">
@@ -35,17 +35,23 @@
         <p class="nourish_text">Plant Based eating is a serious trend that isn’t going anywhere. There are several environmental, health, and ethical reasons why this lifestyle is exponentially growing. “Nourish” is a motivational guide to the lifestyle of plant based eating. The main tools assist with recipes and nutritional information, which can all be shared with a community.
         </p>
 
-        <div class="nourish_cta">
-        <h4 class="nourish_cta_text"><a class="nourish_link" href="https://www.figma.com/file/zRNBNceNawwQKeYXZhBi2H/Nourish-Mockups-post-assessment2?node-id=75%3A0">View Prototype</a> </h4>
-        </div>
 
-        <img src="images/welcome.png" id="nourish_front_mobile"/>
+          <div class="nourish_cta">
+            <a href="https://www.figma.com/file/zRNBNceNawwQKeYXZhBi2H/Nourish-Mockups-post-assessment2?node-id=75%3A0" target="_blank">
+              <div class="sizer">
+                <h4 class="nourish_cta_text">View Prototype</h4>
+              </div>
+           </a>
+          </div>
+
+
+        <img src="images/welcome.png" id="nourish_front_mobile" alt="welcome"/>
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer_2">
+      </div>
 
-      <section class="viewportcontain">
+      <section class="viewportcontain" id="mobile_ps">
 
         <div class="psheader">
           <img src="images/problem.png" alt="problem" />
@@ -65,14 +71,14 @@ On the path to modeling an app to help people eat plant-based, I needed to get t
         <h2 class="title">171 Responses</h2>
       </section>
 
-      <section class="viewportcontain_grid">
+      <div class="viewportcontain_grid" id="mobile_responses">
         <p id="responses_1">I crafted a survey that I posted on various facebook groups. I chose groups that were intrigued with a plant based lifestyle like; Journey to Zero Waste, Vegetarians, and Plant-Based Transitioning and Support. </p>
         <img src="images/allgroups.png" alt="all groups" id="allgroups" />
         <p id="responses_2">
 I then sorted my participants into three main categories, (Vegan/Plant-Based, Vegetarians, and Meat Eaters), based off how they identified. I asked questions unique for each group, as well as a section for all groups (including demopraphics).</p>
         <img src="images/3groups.png" alt="survey groups" id="survey_groups" />
 
-      </section>
+      </div>
 
       <section class="viewport_title">
         <h2 class="title">Key Takeaways</h2>
@@ -110,12 +116,13 @@ The two features that stood out the most were the recipe creator and daily notif
       </section>
 
       <section class="viewport_title_ext">
-        <h2 class="title">Demographics</h2>
-        <p class="user_subtext">This data shows that the majority of Vegans were in the Low Income and Lower Middle Class brackets. The majority of Meat Eaters were found in the Middle Class brackets. This shows that Vegans are able to make their lifestyle work on a budget, even though one of the top concerns is affordability. Interestingly, Vegetarians had the highest percentage in the Low Income bracket and Upper Middle Class to High Income brackets. This data may be an outlier, but I think it tells us that many vegetarians are not sure how to be vegan on a budget. Also, that there is still a large amount of wealthy vegetarians that choose the lifestyle for other reasons.
+        <h2 class="title" id="demo_title"> Demographics</h2>
+        <p class="user_subtext">This data shows that the majority of Vegans were in the Low Income and Lower Middle Class brackets. The majority of Meat Eaters were found in the Middle Class brackets. This shows that Vegans are able to make their lifestyle work on a budget, even though one of the top concerns is affordability. Interestingly, Vegetarians had the highest percentage in the Low Income bracket and Upper Middle Class to High Income brackets. This data may be an outlier, but I think it tells us that many vegetarians are not sure how to be vegan on a budget. Also, that there is still a large amount of wealthy vegetarians that choose the lifestyle for other reasons. </p>
+
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer">
+      </div>
 
       <section class="viewportcontain_demo">
 
@@ -156,67 +163,67 @@ The two features that stood out the most were the recipe creator and daily notif
                     <h5><span class="bold">Low Income</span> (Up to $9,700 and $9,701 to $39,475)</h5>
                   </div>
 
-                    <div class="demo_priority" id="high_bar">
+                    <div class="demo_priority high_bar">
                       <p class="label_lifestyle">1. Vegetarians</p>
                     </div>
-                    <div class="demo_priority" id="medium_bar">
+                    <div class="demo_priority medium_bar">
                       <p class="label_lifestyle">2. Vegans</p>
                     </div>
-                    <div class="demo_priority" id="low_bar">
+                    <div class="demo_priority low_bar">
                       <p class="label_lifestyle">3. Meat Eaters</p>
                     </div>
 
                 </div>
 
-                <div class="income_contain" id="lower_middle_income">
+                <div class="income_contain">
 
                   <div class="income_title">
                     <h5><span class="bold">Lower Middle Class</span> ($39,475 - $84,200) </h5>
                   </div>
 
-                    <div class="demo_priority" id="high_bar">
+                    <div class="demo_priority high_bar">
                       <p class="label_lifestyle">1. Meat Eaters</p>
                     </div>
-                    <div class="demo_priority" id="medium_bar">
+                    <div class="demo_priority medium_bar">
                       <p class="label_lifestyle">2. Vegans</p>
                     </div>
-                    <div class="demo_priority" id="low_bar">
+                    <div class="demo_priority low_bar">
                       <p class="label_lifestyle">3. Vegetarians</p>
                     </div>
 
                 </div>
 
-                <div class="income_contain" id="lower_middle_income">
+                <div class="income_contain">
 
                   <div class="income_title">
                     <h5><span class="bold">Upper Middle Class</span> ($84,201 - $160,725)</h5>
                   </div>
 
-                    <div class="demo_priority" id="high_bar">
+                    <div class="demo_priority high_bar">
                       <p class="label_lifestyle">1. Vegetarians</p>
                     </div>
-                    <div class="demo_priority" id="medium_bar">
+                    <div class="demo_priority medium_bar">
                       <p class="label_lifestyle">2. Meat Eaters</p>
                     </div>
-                    <div class="demo_priority" id="low_bar">
+                    <div class="demo_priority low_bar">
                       <p class="label_lifestyle">3. Vegans</p>
                     </div>
 
                 </div>
 
-                <div class="income_contain" id="lower_middle_income">
+                <div class="income_contain">
 
                   <div class="income_title">
                     <h5><span class="bold">High Income</span> ($160,726 and above)</h5>
                   </div>
 
-                    <div class="demo_priority" id="high_bar">
+                    <div class="demo_priority high_bar">
                       <p class="label_lifestyle">1. Vegetarians</p>
                     </div>
-                    <div class="demo_priority" id="medium_bar">
+                    <div class="demo_priority medium_bar">
                       <p class="label_lifestyle">2. Vegans</p>
                     </div>
-                    <div class="demo_priority" id="low_bar">
+                    <div class="demo_priority low_bar">
                       <p class="label_lifestyle">3. Vegans</p>
                     </div>
 
@@ -224,35 +231,46 @@ The two features that stood out the most were the recipe creator and daily notif
               </div>
 
       </section>
-      <section class="buffer">
-      </section>
 
-      <section class="viewport_title">
-        <h2 class="title">Competitive Analysis</h2>
-      </section>
+      <div class="buffer" id="buffer_reset_slide">
+      </div>
 
-      <section class="viewportcontain_grid">
 
-        <p class="analysis_text">I did a competitive analysis on two apps that help people go vegan, 21-Day Vegan Kickstart (Created by Beyonce and Jay-Z) and 22 Days Nutrition Meal Planner (Created by the Physician's Committee for Responsible Medicine). There are no real competitors in the space of creating an educational tool. These are specific meal plans that help people get into the lifestyle from a healthy angle. By removing the time limit and encouraging all kinds of users, my approach allows room in the app store for “Nourish”.
-        </p>
+            <section class="viewportcontain_min" id="mobile_comp">
 
-        <div class="nourish_cta" id="analysis_cta">
-        <h4 class="nourish_cta_text"><a  class="nourish_link" href="https://www.figma.com/proto/wDwFqrFMrwUVq9Bn2Sg5BC/User-Research-Vegan-Tracking-App?node-id=23%3A0&scaling=min-zoom"> View Full Analysis</a> </h4>
-        </div>
+              <h2 class="flow_title">Competitive Analysis</h2>
+
+
+              <p class="flowtext" id="comp_text">I did a competitive analysis on two apps that help people go vegan, 21-Day Vegan Kickstart (Created by Beyonce and Jay-Z) and 22 Days Nutrition Meal Planner (Created by the Physician's Committee for Responsible Medicine). There are no real competitors in the space of creating an educational tool. These are specific meal plans that help people get into the lifestyle from a healthy angle. By removing the time limit and encouraging all kinds of users, my approach allows room in the app store for “Nourish”.</p>
+
+              <div class="nourish_cta" id="comp_cta">
+                <a class="nourish_cta_link" href="https://drive.google.com/open?id=1tKcmAuKPE2Usnf-PuHPXmeN_Lpmz0xvL" target="_blank">
+                <div class="sizer">
+                  <h4 class="nourish_cta_text">View Full Analysis</h4>
+                </div>
+                </a>
+              </div>
+
+            </section>
+
+
+      <div class="viewportcontain" id="img_comp_viewport">
+
+
 
         <div class="comp_img_contain">
           	<img src="images/22day.png" alt="Beyonce and Jay-Z" class="comp_img"/>
             <img src="images/21day.png" alt="Vegan Diet App" class="comp_img"/>
         </div>
 
-      </section>
+      </div>
 
       <section class="viewport_title_ext" id="info_nav">
-        <h2 class="title">Personas</h2>
+        <h2 class="title" id="persona_title">Personas</h2>
         <p class="user_subtext">I based my personas off of my survey data. Teachers, Students, and people in the Medical Field were the most common professions. I chose a persona for each category (Vegan/Plant-Based, Vegetarian, and Meat Eaters) and summarized their thoughts on an application like this.</p>
       </section>
 
-      <section class="viewportcontain_ext">
+      <section class="viewportcontain_ext" id="mobile_persona">
 
         <div class="left_col">
 
@@ -303,7 +321,7 @@ The two features that stood out the most were the recipe creator and daily notif
 
           </div>
 
-          <div class="goals">
+          <div class="goals" id="grace">
             <h5 class="col_text_head">
             Goals and Motivations:
             </h5>
@@ -361,14 +379,14 @@ Brandon gets frustrated when vegans tell him he is not doing a good enough job. 
 
       </section>
 
-      <section class="viewport_title_ext">
-        <h2 class="title">Potential Users > Interviews</h2>
+      <section class="viewport_title_ext" id="mobile_users">
+        <h2 class="title" id="users_title">Potential Users > Interviews</h2>
         <p class="user_subtext">I  based these potential users off of real interviews I conducted via email. I chose one participant from each survey group that each seemed like they had a very indivudal experience and a strong opinion.</p>
       </section>
 
       <section class="viewportcontain_ext" id="interviews">
 
-        <div class="left_col" id="interview_col">
+        <div class="left_col" id="interview_col_left">
 
         <div class="traits_contain">
           <div class="persona_detail">
@@ -396,7 +414,7 @@ Toby is unhappy with his weight and falls into the obese category. He has adopte
 
         </div>
 
-        <div class="center_col" id="interview_col">
+        <div class="center_col" id="interview_col_center">
 
           <div class="traits_contain">
 
@@ -405,7 +423,7 @@ Toby is unhappy with his weight and falls into the obese category. He has adopte
               <h4 class="persona_name">Carrie</h4>
             </div>
 
-            <ul class="traits">
+            <ul class="traits" id="carrie">
               <li>Vegetarian</li>
               <li>23 years old</li>
               <li>Customer Care</li>
@@ -413,7 +431,7 @@ Toby is unhappy with his weight and falls into the obese category. He has adopte
 
           </div>
 
-          <div class="goals">
+          <div class="goals" id="goals_carrie">
             <h5 class="col_text_head">
             Goals and Motivations:
             </h5>
@@ -432,7 +450,7 @@ Carrie is definitely scared to go vegan because of the stigma in community towar
 
         </div>
 
-        <div class="right_col" id="interview_col">
+        <div class="right_col" id="interview_col_right">
 
           <div class="traits_contain">
             <div class="persona_detail">
@@ -446,7 +464,7 @@ Carrie is definitely scared to go vegan because of the stigma in community towar
              </ul>
           </div>
 
-          <div class="goals">
+          <div class="goals" id="goals_chelsea">
             <h5 class="col_text_head">
             Goals and Motivations:
             </h5>
@@ -482,71 +500,71 @@ Chelsea’s biggest comlaint is with calorie counting culture. As someone who ha
 
           <div class="story" id="story1">
             <p class="story_text">see notifications reminding me of progress; environmental and health</p>
-            <div class="priority" id="high">
+            <div class="priority high">
               <p class="priority_text">High</p>
             </div>
           </div>
 
           <div class="story" id="story2">
             <p class="story_text">use a highly organized recipe creator </p>
-            <div class="priority" id="high">
+            <div class="priority high">
               <p class="priority_text">High</p>
             </div>
           </div>
 
           <div class="story" id="story3">
             <p class="story_text">create an account and tailor it to my custom needs</p>
-            <div class="priority" id="medium">
+            <div class="priority medium">
               <p class="priority_text">Medium</p>
             </div>
           </div>
 
           <div class="story" id="story4">
             <p class="story_text">search for recipes and advice via a community</p>
-            <div class="priority" id="medium">
+            <div class="priority medium">
               <p class="priority_text">Medium</p>
             </div>
           </div>
 
           <div class="story" id="story5">
             <p class="story_text">view my resources</p>
-            <div class="priority" id="medium">
+            <div class="priority medium">
               <p class="priority_text">Medium</p>
             </div>
           </div>
 
           <div class="story" id="story6">
             <p class="story_text">track macro and micronutrients</p>
-            <div class="priority" id="medium">
+            <div class="priority medium">
               <p class="priority_text">Medium</p>
             </div>
           </div>
 
           <div class="story" id="story7">
             <p class="story_text">see information on seasonal produce</p>
-            <div class="priority" id="low">
+            <div class="priority low">
               <p class="priority_text">Low</p>
             </div>
           </div>
 
           <div class="story" id="story8">
             <p class="story_text">see positive fun facts and tips</p>
-            <div class="priority" id="low">
+            <div class="priority low">
               <p class="priority_text">Low</p>
             </div>
           </div>
 
           <div class="story" id="story9">
             <p class="story_text">add a profile picture</p>
-            <div class="priority" id="low">
+            <div class="priority low">
               <p class="priority_text">Low</p>
             </div>
           </div>
 
           <div class="story" id="story10">
             <div class="strikethrough"></div>
-            <p class="story_text">use a calendar to track my progress</p>
-            <div class="priority" id="low">
+            <p class="story_text" id="strikethrough_text">use a calendar to track my progress</p>
+            <div class="priority low">
               <p class="priority_text">Low</p>
             </div>
           </div>
@@ -554,29 +572,41 @@ Chelsea’s biggest comlaint is with calorie counting culture. As someone who ha
 
       </section>
 
-      <section class="viewportcontain_min">
+      <section class="viewportcontain_min" id="mobile_flow">
 
         <h2 class="flow_title">User Flows</h2>
 
 
-        <p class="flowtext">Next, I derived my user flows off of the user stories. I created flows for each of my high and medium priority stories. These flows set the stage for creating a sitemap. This is the stage where we start seeing the data work itself out into actual functions. In the example shown, I created a flow to demonstrate how users would be notified of their progress in working towards a plant-based diet.</p>
+        <p class="flowtext" id="flow_desc">Next, I derived my user flows off of the user stories. I created flows for each of my high and medium priority stories. These flows set the stage for creating a sitemap. This is the stage where we start seeing the data work itself out into actual functions. In the example shown, I created a flow to demonstrate how users would be notified of their progress in working towards a plant-based diet.</p>
 
         <div class="nourish_cta" id="flow_cta">
-          <h4 class="nourish_cta_text"><a class="nourish_link" href="https://drive.google.com/open?id=1tKcmAuKPE2Usnf-PuHPXmeN_Lpmz0xvL">View All Flows</a> </h4>
+          <a class="nourish_cta_link" href="https://drive.google.com/open?id=1tKcmAuKPE2Usnf-PuHPXmeN_Lpmz0xvL" target="_blank">
+          <div class="sizer">
+            <h4 class="nourish_cta_text">View All Flows</h4>
+          </div>
+          </a>
         </div>
 
       </section>
 
-      <section class="viewportcontain">
+      <div class="viewportcontain" id="mobile_flow_img">
         <img src="images/flow.png" alt="community" class="flow_img" />
+      </div>
+
+      <section class="viewportcontain_min" id="mobile_wireframe_title">
+        <h2 class="flow_title" id="wireframe_title">Wireframes</h2>
+        <p class="flowtext" id="wiretext">My wireframes are direct visuals crafted from the Sitemap and User Flows that I had created. These are my initial brainstorming documents that turned all of the ideas into reality. </p>
+
+        <div class="nourish_cta" id="wireframe_cta">
+          <a class="nourish_cta_link" href="https://drive.google.com/open?id=1tKcmAuKPE2Usnf-PuHPXmeN_Lpmz0xvL" target="_blank">
+          <div class="sizer">
+            <h4 class="nourish_cta_text">View Wireframes and Sitemap</h4>
+          </div>
+          </a>
+        </div>
       </section>
 
-      <section class="viewport_title">
-        <h2 class="title">Wireframes</h2>
-        <p class="user_subtext">My wireframes are direct visuals crafted from the Sitemap and User Flows that I had created. These are my initial brainstorming documents that turned all of the ideas into reality. </p>
-      </section>
-
-      <section class="viewportcontain">
+      <div class="viewportcontain" id="mobile_wireframe">
 
         <div class="wireframe_contain">
           <img src="images/wire1.png" alt="wireframe" />
@@ -584,27 +614,27 @@ Chelsea’s biggest comlaint is with calorie counting culture. As someone who ha
           <img src="images/wire3.png" alt="wireframe" />
         </div>
 
-      </section>
+      </div>
 
-      <section class="viewportcontain" id="branding_nav">
+      <div class="viewportcontain" id="branding_nav">
         <img src="images/brand_head.png" alt="nourish" class="brand_head"/>
-      </section>
+      </div>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset">
+      </div>
 
-      <section class="viewport_title">
-        <h2 class="title">Preference Test</h2>
+      <section class="viewport_title_text">
+        <h2 class="title" id="pref_title">Preference Test</h2>
         <p class="user_subtext">I conducted a preference test that chose between a few different fonts, colors for the leaf logo, and alternate avatars.</p>
       </section>
 
-      <section class="viewportcontain">
+      <div class="viewportcontain" id="mobile_pref">
         <div class="pref_contain">
           <img src="images/avatar_pref.png" alt="avatar" />
           <img src="images/font_pref.png" alt="font" />
           <img src="images/icon_pref.png" alt="icon" />
         </div>
-      </section>
+      </div>
 
       <section class="viewport_title_ext" id="icons_sizing">
         <div class="text_lump">
@@ -618,70 +648,70 @@ Chelsea’s biggest comlaint is with calorie counting culture. As someone who ha
           </div>
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer">
+      </div>
 
-      <section class="viewportcontain">
+      <div class="viewportcontain">
             <img src="images/example.png" alt="example" class="example"/>
-      </section>
+      </div>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer">
+      </div>
 
-      <section class="viewport_title">
-        <h2 class="title">User Testing</h2>
+      <section class="viewport_title_text">
+        <h2 class="title" id="test_title">User Testing</h2>
         <p class="user_subtext">
 In the earliest stages of the app, I tested it with users and got a few main pieces of feedback;
         </p>
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset2">
+      </div>
 
 
-      <section class="viewportcontain_grid">
+      <div class="viewportcontain_grid" id="feedback">
 
 
         <ul class="title_feedback">
           <li>- Too much color</li>
           <li>- The home screen is cluttered</li>
-          <li>- The profile placement is incorrect</li>
-          <li>- The resource section is hard to locate</li>
+          <li>- Incorrect profile placement </li>
+          <li>- Location of the resources</li>
         </ul>
 
         <img src="images/home_first.png" alt="first attempt" class="first_attempt" />
-      </section>
+      </div>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset3">
+      </div>
 
       <section class="viewport_title">
         <h2 class="title">Home Page Attempts</h2>
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset4">
+      </div>
 
-      <section class="viewportcontain">
+      <div class="viewportcontain" id="mobile_attempts">
         <div class="display_contain">
           <img src="images/home_first.png" alt="attempt1" class="attempt_img" />
           <img src="images/attempt2.png" alt="attempt2" class="attempt_img" />
           <img src="images/attempt3.png" alt="attempt3" class="attempt_img" />
         </div>
-      </section>
+      </div>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset5">
+      </div>
 
-      <section class="viewport_title">
-        <h2 class="title">Refining the Home Page</h2>
+      <section class="viewport_title_text">
+        <h2 class="title" id="refine_title">Refining the Home Page</h2>
         <p class="user_subtext">The answer was simple! Using a hamburger menu to separate home page tasks and sort the profile. Also I refined the color to brown and green...</p>
       </section>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset6">
+      </div>
 
-      <section class="viewportcontain">
+      <div class="viewportcontain" id="mobile_refine">
 
         <div class="display_contain">
           <img src="images/home_nav.png" alt="Home Navigation" class="attempt_img" />
@@ -689,14 +719,14 @@ In the earliest stages of the app, I tested it with users and got a few main pie
           <img src="images/articles.png" alt="Articles and Tips" class="attempt_img" />
           <img src="images/resources.png" alt="Resources" class="attempt_img" />
         </div>
-      </section>
+      </div>
 
-      <section class="buffer">
-      </section>
+      <div class="buffer" id="buffer_reset7">
+      </div>
 
       <section class="viewportcontain" id="conclusion_nav">
         <div class="top_row">
-          <img src="images/flag.png" alt="finish line" />
+          <img src="images/flag.png" alt="finish line" class="flag"/>
           <h2 class="conclusion_title">Conclusion</h2>
         </div>
 
@@ -706,22 +736,27 @@ In the earliest stages of the app, I tested it with users and got a few main pie
           </p>
         </div>
       </section>
-      <div class="footer_wrap">
-        <img src="images/mask_footer.png" alt="avi" class="avi"/>
+      <footer class="footer_wrap">
 
-        <div class="name_email">
-        <h4 class="description_display" id="footer_name"> Stevie Kukura </h4>
-        <p class="footer_email">stvikkra@gmail.com</p>
+        <div class="name_avi">
+
+          <img src="images/mask_footer.png" alt="avi" class="avi"/>
+
+          <div class="name_email">
+            <h3 class="description_display" id="footer_name"> Stevie Kukura </h3>
+            <p class="footer_email">stvikkra@gmail.com</p>
+          </div>
+
         </div>
 
         <div class="socialmedialinks">
-          <a href="mailto:stvikkra@gmail.com"><img src="images/gmail.png" alt="gmail"/></a>
-          <a href="https://www.linkedin.com/in/stvikkra" alt="linkedin"><img src="images/linkedin.png" alt="linkedin"/></a>
-          <a href="https://www.github.com/stvikkra" alt="github"><img src="images/github.png" alt="github"/></a>
-          <a href="https://www.facebook.com/stvikkra"><img src="images/facebook.png" alt="facebook"/></a>
+          <a href="https://www.github.com/stvikkra" target="_blank"><img src="images/github.png" alt="github"/></a>
+          <a href="https://www.linkedin.com/in/stvikkra" target="_blank"><img src="images/linkedin.png" alt="linkedin"/></a>
+          <a href="https://www.instagram.com/stvikkra" target="_blank"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="https://www.facebook.com/stvikkra" target="_blank"><img src="images/facebook.png" alt="facebook"/></a>
         </div>
 
-      </div>
+      </footer>
 
   </div>
 

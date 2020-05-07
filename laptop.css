@@ -56,7 +56,7 @@
   .title{
     color: #4A4A4A;
     padding: 0;
-    margin-left: 4%;
+    width: 100%;
   }
 
   /* Wrap Classes */
@@ -129,7 +129,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
     width: 100vw;
     height: 50vh;
     background-color: #F4F4F4;
@@ -947,11 +946,16 @@
   	}
 
   .slide_container #nav_slide{
-  	width: 100%;
-    bottom: 5%;
+  	width: 40%;
+    left: 43%;
+    height: 200px;
+    bottom: 0;
   	height: 11px;
   	position: absolute;
   	text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   	z-index: 60;
   	cursor: default;
   }
@@ -1019,10 +1023,8 @@
   /* Personas and Potential Users */
 
   .user_subtext{
-    width: 50%;
-    margin-left: 4%;
-    margin-top: 2%;
-  }
+    width: 80%;
+    }
 
 
   .left_col{

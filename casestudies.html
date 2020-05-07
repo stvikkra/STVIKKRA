@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="tablet_mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Prompt:400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet">
     <title>STVI KKRA | Case Studies</title>
@@ -15,51 +17,68 @@
   <div id="casestudieswrap">
 
     <nav class="navigation">
-      <h3 id="header_name"><a class="headlink" href="index.html">STVI KKRA</a></h3>
-      <h4 class="main_nav"><a href="about.html">About Me</a></h4>
+      <label class="mobile_nav" for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu" id="mobile_subnav">
+          <h4 class="submenu_h4"><a href="index.html" class="subnav_color" target="_blank">Home</a></h4>
+          <h4 class="submenu_h4"><a href="about.html" target="_blank">About Me</a></h4>
+      </div>
+        <h3 id="header_name"><a class="headlink" href="index.html" target="_blank"> STVI KKRA</a> </h3>
+        <h4 class="main_nav"><a href="about.html" target="_blank">About Me</a></h4>
     </nav>
 
-      <div class="case_study_title_wrap"><h2 id="case_study_title"> Case Studies </h1>
-        <a href="index.html" alt="Home"><img src="images\backarrow.png" alt="back" class="button" id="white_back"/>
-        </a>
+      <div class="case_study_title_wrap"><h2 id="case_study_title"> Case Studies </h2>
+
       </div>
 
-      <div class="nourishwrap">
+    <div class="nourishwrap_row">
+      <div class="nourish_wrap">
         <img src="images/nourish.png" alt="nourish" class="nourish_display" />
-        <h4 class="description_display">A mobile app that functions as an educational tool towards plant-based eating.</h4>
+
+        <h4 class="description_display" id="nourish_description">A mobile app that functions as an educational tool towards plant-based eating.</h4>
+
+        <a href="nourish.html" target="_blank">
         <div class="view_whitepink">
-          <h3 id="view_button_text">
-            <a href="nourish.html">
+            <h3>
             View
-            </a>
-          </h3>
-
+            </h3>
         </div>
-      </div>
+        </a>
 
-      <div class="findwrap">
-        <img src="images/find.png" alt="find" class="find_display" />
-        <h4 class="description_display">A mobile and desktop cloud storage application designed with privacy and organization in mind.</h4>
-        <div class="view_whitepink"><h3 id="view_button_text"> View </h3> </div>
       </div>
     </div>
 
+    <div class="findwrap_row">
+      <div class="find_wrap">
+        <img src="images/find.png" alt="find" class="find_display" />
+        <h4 class="description_display">A mobile and desktop cloud storage application designed with privacy and organization in mind.</h4>
+        <div class="view_whitepink"><h3 class="view_button_text"> View </h3> </div>
+      </div>
+    </div>
+  </div>
 
-    <div class="footer_wrap">
+
+  <footer class="footer_wrap">
+
+    <div class="name_avi">
+
       <img src="images/mask_footer.png" alt="avi" class="avi"/>
 
       <div class="name_email">
-      <h4 class="description_display" id="footer_name"> Stevie Kukura </h4>
-      <p class="footer_email">stvikkra@gmail.com</p>
-      </div>
-
-      <div class="socialmedialinks">
-        <a href="mailto:stvikkra@gmail.com"><img src="images/gmail.png" alt="gmail"/></a>
-        <a href="https://www.linkedin.com/in/stvikkra" alt="linkedin"><img src="images/linkedin.png" alt="linkedin"/></a>
-        <a href="https://www.github.com/stvikkra" alt="github"><img src="images/github.png" alt="github"/></a>
-        <a href="https://www.facebook.com/stvikkra"><img src="images/facebook.png" alt="facebook"/></a>
+        <h3 class="description_display" id="footer_name"> Stevie Kukura </h3>
+        <p class="footer_email">stvikkra@gmail.com</p>
       </div>
 
     </div>
+
+    <div class="socialmedialinks">
+      <a href="https://www.github.com/stvikkra" target="_blank"><img src="images/github.png" alt="github"/></a>
+      <a href="https://www.linkedin.com/in/stvikkra" target="_blank"><img src="images/linkedin.png" alt="linkedin"/></a>
+      <a href="https://www.instagram.com/stvikkra" target="_blank"><img src="images/instagram.png" alt="Instagram"/></a>
+      <a href="https://www.facebook.com/stvikkra" target="_blank"><img src="images/facebook.png" alt="facebook"/></a>
+    </div>
+
+  </footer>
+  
   </body>
   </html>
