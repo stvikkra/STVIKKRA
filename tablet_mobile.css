@@ -1244,7 +1244,7 @@
   }
 
   #img_comp_viewport{
-    height: 50vh;
+    height: 80vh;
   }
 
   .comp_img{
@@ -1252,11 +1252,19 @@
     width: 90%;
   }
 
-  #comp_cta{
-    grid-column: 2 / 12;
-    grid-row: 12 / 13;
+  #mobile_comp{
+    height: 65vh;
+    grid-template-rows: repeat(50, 25px);
   }
 
+  #comp_text{
+    grid-row: 3 / 5;
+  }
+
+  #comp_cta{
+    grid-row: 19 / 21;
+    grid-column: 2 / 12;
+  }
   .analysis_text{
     grid-column: 1 / 22;
     grid-row: 2 / 8;
@@ -1272,6 +1280,14 @@
 
   #mobile_persona{
     height: 282vh;
+  }
+
+  #mobile_users{
+    height: 45vh;
+  }
+
+  #info_nav{
+    height: 45vh;
   }
 
   #persona_title{
@@ -1398,7 +1414,9 @@
 
   /* Potential Users > Interviews */
 
-
+  #mobile_users{
+    height: 40vh;
+  }
 
   #interviews{
     width: 100vw;
@@ -1664,13 +1682,17 @@
 
   /* Icons and Sizing */
 
+  #icons_sizing{
+    height: 85vh;
+  }
+
   .icon_avatar{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     width: 80%;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 7%;
     margin: 0;
   }
@@ -1690,7 +1712,7 @@
   #lump_reset{
     margin: 0;
     padding-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   #lump_reset_text{
@@ -1702,7 +1724,7 @@
 
   .avatar_final{
     width: 100%;
-    height: 80%;
+    height: 90%;
   }
 
   .example{
@@ -1715,6 +1737,10 @@
   }
 
   /* User Testing */
+
+  #test_title{
+    padding-left: 5%;
+  }
 
   #feedback{
     display: flex;

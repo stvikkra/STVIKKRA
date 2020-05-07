@@ -287,7 +287,7 @@
     /* Nourish */
 
     #nourish_front_mobile{
-      padding-top: 10%;
+      padding-top: 20%;
     }
 
     .viewport_title{
@@ -471,11 +471,11 @@
     }
 
     #mobile_wireframe_title{
-      height: 40vh;
+      height: 45vh;
     }
 
     #wireframe_cta{
-      grid-row: 6 / 8;
+      grid-row: 7 / 9;
       grid-column: 2 / 7;
     }
 
@@ -646,6 +646,27 @@
       justify-content: space-between;
     }
 
+    .nourish_cta{
+      grid-row: 16 / 18;
+    }
+
+    #nourish_front_mobile{
+      padding-top: 25%;
+    }
+
+    #img_comp_viewport{
+      height: 50vh;
+    }
+
+    #mobile_flow{
+      height: 55vh;
+    }
+
+    .flow_img{
+      height: 800px;
+      width: 1280px;
+    }
+
   }
 }
 
@@ -675,6 +696,19 @@
 
   #responses_2{
     grid-row: 7 / 8;
+  }
+
+  #mobile_comp{
+    height: 70vh;
+    grid-template-rows: repeat(50, 25px);
+  }
+
+  #comp_text{
+    grid-row: 3 / 5;
+  }
+
+  #comp_cta{
+    grid-row: 18 / 20;
   }
 
   #allgroups{
@@ -947,6 +981,10 @@
   .example{
     align-self: center;
     width: 80%;
+  }
+
+  #icons_sizing{
+    height: 100vh;
   }
 
 }
@@ -1263,6 +1301,14 @@
   #mobile_pref{
     height: 275vh;
     display: flex;
+  }
+
+  #mobile_users{
+    height: 48vh;
+  }
+
+  #icons_sizing{
+    height: 105vh;
   }
 
   .example{
@@ -1587,6 +1633,10 @@
         height: 275vh;
       }
 
+      #mobile_users{
+        height: 55vh;
+      }
+
       #mobile_wireframe_title{
         background-color: #F4F4F4;
         width: 100vw;
@@ -1609,6 +1659,10 @@
       #mobile_pref{
         height: 275vh;
         display: flex;
+      }
+
+      #icons_sizing{
+        height: 120vh;
       }
 
       .example{
@@ -1806,6 +1860,14 @@
     #mobile_persona{
       height: 405vh;
       grid-template-rows: repeat(50, 50px);
+    }
+
+    #info_nav{
+      height: 60vh;
+    }
+
+    #mobile_users{
+      height: 60vh;
     }
 
     .user{
@@ -2082,6 +2144,10 @@
       #mobile_pref{
         height: 325vh;
         display: flex;
+      }
+
+      #icons_sizing{
+        height: 120vh;
       }
 
       .example{

@@ -806,7 +806,7 @@ a.nourish_link:hover{
   border-radius: 10px;
   background-color: #C9FFDD;
   grid-column: 2 / 6;
-  grid-row: 16 / 18;
+  grid-row: 17 / 19;
 }
 
 .sizer {
@@ -1085,7 +1085,7 @@ a.nourish_link:hover{
 
 .slide_container{
     width: 90%;
-    height: 60%;
+    height: 50%;
     position: relative;
 	  user-select: none;
 	}
@@ -1101,7 +1101,8 @@ a.nourish_link:hover{
 	}
 
 .slide_container #nav_slide{
-	width: 500px;
+	width: 85%;
+  left: 5%;
   bottom: 5%;
 	height: 11px;
 	position: absolute;
@@ -1114,7 +1115,7 @@ a.nourish_link:hover{
 	width: 18px;
 	height: 18px;
   margin-top: 4%;
-  margin-left: 2%;
+  margin-left: 5%;
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
@@ -1180,11 +1181,19 @@ a.nourish_link:hover{
   margin-top: 2%;
 }
 
+#mobile_persona{
+  height: 108vh;
+}
+
+#mobile_users{
+  height: 30vh;
+}
+
 
 .left_col{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-column: 2 / 8;
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
   display: flex;
   flex-direction: column;
   background-color: #F4F4F4;
@@ -1194,7 +1203,7 @@ a.nourish_link:hover{
 .center_col{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-column: 10 / 16;
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
   flex-direction: column;
   display: flex;
   background-color: #F4F4F4;
@@ -1204,7 +1213,7 @@ a.nourish_link:hover{
 .right_col{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-column: 18 / 24;
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
   display: flex;
   flex-direction: column;
   background-color: #F4F4F4;
@@ -1282,20 +1291,20 @@ a.nourish_link:hover{
 /* Potential Users > Interviews */
 
 #interviews{
-  height: 170vh;
+  height: 135vh;
   grid-template-rows: repeat(25, 6.8vh);
 }
 
 #interview_col_left{
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
 }
 
 #interview_col_center{
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
 }
 
 #interview_col_right{
-  grid-row: 3 / 24;
+  grid-row: 3 / 19;
 }
 
 /* User Stories */
@@ -1458,12 +1467,24 @@ a.nourish_link:hover{
 
 #flow_cta{
   grid-column: 2 / 6;
-  grid-row: 12 / 14;
+  grid-row: 10 / 12;
 }
 
 #comp_cta{
   grid-column: 2 / 6;
-  grid-row: 13 / 15;
+  grid-row: 12 / 14;
+}
+
+#mobile_comp{
+  height: 70vh;
+}
+
+#info_nav{
+  height: 35vh;
+}
+
+#mobile_flow{
+  height: 60vh;
 }
 
 .flowtext{
@@ -1481,6 +1502,10 @@ a.nourish_link:hover{
 
 /* Wireframes */
 
+#mobile_wireframe_title{
+  height: 50vh;
+}
+
 .wireframe_contain{
   display: flex;
   width: 100%;
@@ -1490,7 +1515,12 @@ a.nourish_link:hover{
 
 #wiretext{
   grid-row: 2 / 5;
-  padding-top: 10%;
+  padding-top: 15%;
+}
+
+#wireframe_cta{
+  grid-row: 8/ 10;
+  grid-column: 2 / 7;
 }
 
 /* Branding */
@@ -1549,7 +1579,7 @@ a.nourish_link:hover{
 
 .avatar_final{
   width: 100%;
-  height: 60%;
+  height: 80%;
 }
 
 .example{
@@ -1557,6 +1587,7 @@ a.nourish_link:hover{
 }
 
 #icons_sizing{
+  height: 45vh;
   flex-direction: row;
   align-items: center;
 }
@@ -1564,7 +1595,7 @@ a.nourish_link:hover{
 /* User Testing */
 
 #test_title{
-  padding-top: 5%;
+  padding: 0;
 }
 
 .title_feedback{
