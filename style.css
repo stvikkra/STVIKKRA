@@ -1012,20 +1012,20 @@ a.nourish_link:hover{
   grid-template-rows: 50% 50%;
 }
 
-#high_bar{
+.high_bar{
   background-color: #398A6A;
   grid-column: 1 / 5;
   grid-row: 2 / 3;
   border-radius: 0 0 0 10px;
 }
 
-#medium_bar{
+.medium_bar{
   background-color: #603F45;
   grid-column: 5 / 9;
   grid-row: 2 / 3;
 }
 
-#low_bar{
+.low_bar{
   background-color: #6D7178;
   grid-column: 9 / 13;
   grid-row: 2 / 3;
@@ -1445,15 +1445,15 @@ a.nourish_link:hover{
   grid-row: 22 / 23;
 }
 
-#high{
+.high{
   background-color: #398A6A;
 }
 
-#medium{
+.medium{
   background-color: #603F45;
 }
 
-#low{
+.low{
   background-color: #6D7178;
 }
 
@@ -2560,7 +2560,6 @@ a.nourish_link:hover{
   }
 
   .psheader{
-    justify-self: "center";
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -2703,7 +2702,7 @@ a.nourish_link:hover{
   }
 
   #meat_img{
-    grid-column: 0 / 2;
+    grid-column: 1 / 2;
     grid-row: 6 / 7;
     align-self: center;
     width: 75px;
@@ -2756,20 +2755,20 @@ a.nourish_link:hover{
     grid-template-rows: 50% 50%;
   }
 
-  #high_bar{
+  .high_bar{
     background-color: #398A6A;
     grid-column: 1 / 5;
     grid-row: 2 / 3;
     border-radius: 0 0 0 10px;
   }
 
-  #medium_bar{
+  .medium_bar{
     background-color: #603F45;
     grid-column: 5 / 9;
     grid-row: 2 / 3;
   }
 
-  #low_bar{
+  .low_bar{
     background-color: #6D7178;
     grid-column: 9 / 13;
     grid-row: 2 / 3;
@@ -2788,7 +2787,7 @@ a.nourish_link:hover{
     align-items: center;
     padding-left: 3%;
     grid-column: 1 / 13;
-    grid-row: 0 / 1;
+    grid-row: 1 / 1;
     border-radius: 10px 10px 0 0;
   }
 
@@ -3228,15 +3227,15 @@ a.nourish_link:hover{
     grid-row: 35 / 38;
   }
 
-  #high{
+  .high{
     background-color: #398A6A;
   }
 
-  #medium{
+  .medium{
     background-color: #603F45;
   }
 
-  #low{
+  .low{
     background-color: #6D7178;
   }
 
@@ -3494,7 +3493,6 @@ a.nourish_link:hover{
   }
 
   .conclusion_body{
-    justify-self: "center";
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -4445,15 +4443,15 @@ a.nourish_link:hover{
     grid-row: 34 / 38;
   }
 
-  #high{
+  .high{
     background-color: #398A6A;
   }
 
-  #medium{
+  .medium{
     background-color: #603F45;
   }
 
-  #low{
+  .low{
     background-color: #6D7178;
   }
 
@@ -4770,15 +4768,15 @@ a.nourish_link:hover{
     grid-row: 34 / 38;
   }
 
-  #high{
+  .high{
     background-color: #398A6A;
   }
 
-  #medium{
+  .medium{
     background-color: #603F45;
   }
 
-  #low{
+  .low{
     background-color: #6D7178;
   }
 
@@ -5124,15 +5122,15 @@ a.nourish_link:hover{
         grid-row: 34 / 38;
       }
 
-      #high{
+      .high{
         background-color: #398A6A;
       }
 
-      #medium{
+      .medium{
         background-color: #603F45;
       }
 
-      #low{
+      .low{
         background-color: #6D7178;
       }
 
@@ -5635,15 +5633,15 @@ a.nourish_link:hover{
         grid-row: 34 / 38;
       }
 
-      #high{
+      .high{
         background-color: #398A6A;
       }
 
-      #medium{
+      .medium{
         background-color: #603F45;
       }
 
-      #low{
+      .low{
         background-color: #6D7178;
       }
 
