@@ -33,15 +33,17 @@
 						          <h2>Contact Me<hr></h2>
 				      </div>
 
-				      <form class="contact__form" action=”contactform.php” method=”post” enctype=”multipart/form-data” name=”EmailForm”>
+				      <form class="contact__form" action=”https://formsubmit.co/stvikkra@gmail.com” method=”POST">
 						      <p class="form_p">Name</p>
 					        <input class="contact__form-input" type="text" name="name">
 
 						      <p class="form_p">Email</p>
-						      <input class="contact__form-input" type="text" name="mail">
+						      <input class="contact__form-input" type="text" name="email">
 
 						      <p class="form_p">Message</p>
 						      <textarea class="contact__form-textarea" type="text" name="message"></textarea>
+
+                  <input type="hidden" name="_replyto">
 
 						      <button class="form_cta" type="submit" name="submit"><h3>Send Message</h3></button>
 				      </form>
