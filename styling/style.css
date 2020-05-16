@@ -96,6 +96,7 @@ p {
 .wrapper_master {
   background-color: white;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -313,7 +314,7 @@ label{
 .footer_wrap {
     background-color: #6D7178;
     width: 100%;
-    height: auto;
+    height: 15%;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: 5vh 5vh 5vh;
@@ -364,6 +365,123 @@ label{
   padding-left: 0%;
   margin-bottom: 5%;
 }
+
+/* Contact */
+
+.nav_buffer{
+  height: 10%;
+  width: 100%;
+}
+
+.form_p{
+  color: white;
+}
+
+.contact_wrapper{
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  height: 75%;
+  margin: 0 auto;
+}
+
+.contact__container {
+		display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border: 10px solid #6D7178;
+		border-radius: 10px;
+		margin: 0 auto;
+		padding: 0 0 10px 10px;
+		max-width: 330px;
+		background-color: #6D7178;
+
+}
+
+.contact__title {
+		display: inline-block;
+}
+
+.contact__title h2 {
+		padding: 0 10px 0 0px;
+		margin: 5px 0;
+		color: #FBFBFB;
+}
+
+.contact__form {
+		padding: 10px 10px 0 0;
+}
+
+hr {
+		width: 100%;
+		display: block;
+		margin: 5px 0;
+		height: 5px;
+		border: 0;
+		background-color: #FBFBFB;
+}
+
+input,
+textarea {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		width: 100%;
+		border: 5px solid #FFFFFF;
+		border-radius: 5px;
+		resize: none;
+		padding: 0 5px;
+		box-sizing: border-box;
+		font-family: 'Prompt' sans-serif;
+		font-size: 14px;
+		color: #141414;
+}
+
+textarea{
+  font-family: Prompt;
+}
+
+input[type="text"] {
+		padding: 0;
+		height: 40px;
+		width: 100%;
+}
+
+input:focus,
+textarea:focus {
+		outline: none;
+}
+
+.contact__form-input {
+		margin: 5px 0 10px 0;
+}
+
+.contact__form-textarea {
+		margin: 5px 0;
+		width: 100%;
+		height: 100px;
+}
+
+
+.form_cta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		width: 100%;
+		height: 50px;
+		border: 0;
+    color: #FF537C;
+    background-color: #FFDDE5;
+		border-radius: 10px;
+		margin: 10px 0 0 0;
+    font-family: 'Oswald' sans-serif;
+		font-size: 21.88px;
+}
+
+.form_cta:hover{
+  background-color: #FF537C;
+}
+
+.form_cta:hover h3{
+  color: white;
+}
+
+
 
 /* Index */
 
@@ -1759,7 +1877,6 @@ a.nourish_link:hover{
   .wrapper_master {
     background-color: white;
     width: 100%;
-    height: auto;
     min-height: 100%;
     display: flex;
     flex-direction: row;
