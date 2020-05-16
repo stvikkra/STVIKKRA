@@ -15,18 +15,18 @@ body {
 
 /* unvisited link */
 a:link {
-  color: #FF537C;
+  color: #C4C4C4;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #FF537C;
+  color: #C4C4C4;
 }
 
 /* mouse over link */
 a:hover {
-  color: #C4C4C4;
+  color: #FF537C;
 }
 
 /* selected link */
@@ -208,8 +208,20 @@ p {
 
 .main_nav{
   color: #C4C4C4;
-  grid-column-start: 21;
-  grid-column-end: 25;
+}
+
+#mywork_nav{
+  grid-column: 18 / 20;
+}
+
+
+#about_nav{
+    grid-column: 21 / 22;
+
+}
+
+#contact_nav{
+    grid-column: 23 / 24;
 }
 
 #header_name{
@@ -495,6 +507,15 @@ textarea:focus {
   height: 100vh;
 }
 
+.index_socialmedialinks{
+  position: fixed;
+  bottom: 3%;
+  left: 72%;
+  width: 27%;
+  display: flex;
+  justify-content: space-around;
+}
+
 #pinkh1 {
   color: #FF537C;
   font-family: 'Oswald', sans-serif;
@@ -552,23 +573,12 @@ textarea:focus {
 .aboutdescribe{
   grid-column-start: 9;
   grid-column-end: 13;
-  grid-row-start: 10;
+  grid-row-start: 11;
   grid-row-end: 14;
+  padding-top: 6%;
   display: flex;
-  padding-top: 13%;
 }
 
-.aboutme{
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 17;
-  grid-row-end: 18;
-  padding-top: 8%;
-}
-
-.aboutme:hover #about_title{
-  color: #C4C4C4;
-}
 
 #about_title{
   padding-left: 20%;
@@ -2114,6 +2124,7 @@ a.nourish_link:hover{
     font-size: 25px;
     color: #E5E5E5;
   }
+
   /* footer styles */
 
   .footer_wrap {
@@ -2169,6 +2180,51 @@ a.nourish_link:hover{
     line-height: 200%;
     margin: 0;
     padding: 0;
+  }
+
+  /* Contact */
+
+  .nav_buffer{
+    height: 10vh;
+    width: 100%;
+  }
+
+  .form_p{
+    color: white;
+  }
+
+  .contact_wrapper{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin: 0 auto;
+  }
+
+  .contact__container {
+  		display: block;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border: 10px solid #6D7178;
+  		border-radius: 10px;
+  		margin: 0 auto;
+  		padding: 0 0 10px 10px;
+  		max-width: 330px;
+  		background-color: #6D7178;
+
+  }
+
+  .contact__title {
+  		display: inline-block;
+  }
+
+  .contact__title h2 {
+  		padding: 0 10px 0 0px;
+  		margin: 5px 0;
+  		color: #FBFBFB;
+  }
+
+  .contact__form {
+  		padding: 10px 10px 0 0;
   }
 
   /* Index */
@@ -3642,6 +3698,7 @@ a.nourish_link:hover{
 
   @media screen and (min-width: 991px){
 
+
     .viewportcontain{
       height: 70vh;
     }
@@ -3659,6 +3716,7 @@ a.nourish_link:hover{
       color: #FF537C;
       font-family: 'Oswald', sans-serif;
       padding-left: 15%;
+      font-size: 66.76px;
       width: 100%;
     }
 
@@ -3711,11 +3769,15 @@ a.nourish_link:hover{
 
     .aboutdescribe{
       grid-column-start: 9;
-      grid-column-end: 12;
+      grid-column-end: 13;
       grid-row-start: 11;
-      grid-row-end: 12;
+      grid-row-end: 14;
+      padding-top: 6%;
       display: flex;
-      padding-top: 10%;
+    }
+
+    .aboutdescribe h4{
+      font-size: 27.34px;
     }
 
     .aboutme{
@@ -4155,7 +4217,7 @@ a.nourish_link:hover{
     #index {
       background-color: #141414;
       display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      grid-template-columns: repeat(24, 1fr);
       grid-template-rows: repeat(50, 5vh);
       width: 100vw;
       height: 100vh;
@@ -4164,7 +4226,7 @@ a.nourish_link:hover{
     #pinkh1 {
       color: #FF537C;
       font-family: 'Oswald', sans-serif;
-      padding-left: 19%;
+      padding-left: 8%;
       width: 100%;
     }
 
@@ -4179,7 +4241,7 @@ a.nourish_link:hover{
 
     .hero {
       grid-column-start: 1;
-      grid-column-end: 8;
+      grid-column-end: 16;
       grid-row-start: 4;
       grid-row-end: 18;
       display: flex;
@@ -4194,8 +4256,8 @@ a.nourish_link:hover{
 
 
     .mywork{
-      grid-column-start: 9;
-      grid-column-end: 14;
+      grid-column-start: 18;
+      grid-column-end: 25;
       grid-row-start: 4;
       grid-row-end: 10;
       margin-bottom: 10%;
@@ -4216,8 +4278,8 @@ a.nourish_link:hover{
     }
 
     .aboutdescribe{
-      grid-column-start: 9;
-      grid-column-end: 13;
+      grid-column-start: 17;
+      grid-column-end: 25;
       grid-row-start: 10;
       grid-row-end: 12;
       display: flex;
@@ -4631,6 +4693,24 @@ a.nourish_link:hover{
 /* (iphone 6, 7, 8) */
 
 @media screen and (max-height: 667px) {
+
+  .nav_buffer{
+    height: 10vh;
+    width: 100%;
+  }
+
+  .form_p{
+    color: white;
+  }
+
+  .contact_wrapper{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    margin: 0 auto;
+  }
+
 
   #prototype_nav{
     height: 200vh;
@@ -5339,6 +5419,48 @@ a.nourish_link:hover{
 
 @media screen and (max-height: 568px) and (max-width: 320px){
 
+  .nav_buffer{
+    height: 10vh;
+    width: 100%;
+  }
+
+  .form_p{
+    color: white;
+  }
+
+  .contact_wrapper{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .contact__container {
+      display: block;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border: 10px solid #6D7178;
+      border-radius: 10px;
+      margin: 0 auto;
+      padding: 0 0 10px 10px;
+      max-width: 250px;
+      background-color: #6D7178;
+
+  }
+
+  .contact__title {
+      display: inline-block;
+  }
+
+  .contact__title h2 {
+      padding: 0 10px 0 0px;
+      margin: 5px 0;
+      color: #FBFBFB;
+  }
+
+  .contact__form {
+      padding: 10px 10px 0 0;
+  }
 
     .title{
       color: #4A4A4A;
