@@ -214,10 +214,13 @@ p {
   grid-column: 18 / 20;
 }
 
+#mywork_nav_page{
+  grid-column: 21 / 23;
+}
+
 
 #about_nav{
     grid-column: 21 / 22;
-
 }
 
 #contact_nav{
@@ -532,6 +535,10 @@ textarea:focus {
   color: white;
 }
 
+#index_nav{
+  background-color: transparent;
+}
+
 .hero {
   grid-column-start: 1;
   grid-column-end: 8;
@@ -539,6 +546,10 @@ textarea:focus {
   grid-row-end: 19;
   display: flex;
 
+}
+
+.link_contain{
+  display: none;
 }
 
 .heroimage{
@@ -2043,11 +2054,11 @@ a.nourish_link:hover{
   .menu{
     position: fixed;
     background-color: #6D7178;
-    width: 80%;
+    width: 90%;
     top: 10%;
     left: 0;
     right: 0;
-    display: none;
+    display: flex;
   }
 
   #mobile_subnav{
@@ -2234,9 +2245,19 @@ a.nourish_link:hover{
     background-color: #141414;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(20, 5vh);
+    grid-template-rows: repeat(50, 2vh);
     width: 100vw;
     height: 100vh;
+  }
+
+  .index_socialmedialinks{
+    position: fixed;
+    bottom: 3%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
   }
 
   #pinkh1 {
@@ -2247,16 +2268,27 @@ a.nourish_link:hover{
     margin: 0;
   }
 
+  .mobile_link{
+    padding: 0;
+    margin: 0;
+  }
+
+  .link_contain{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 6 / 20;
+    grid-row: 26 / 27;
+  }
+
   #introstatement{
     color: white;
     padding: 0;
     margin: 0;
-    width: 50%;
-
+    width: 75%;
   }
 
   .hero {
-    grid-row: 2 / 11;
+    grid-row: 4 / 25;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -2269,9 +2301,9 @@ a.nourish_link:hover{
   }
 
   .mywork{
-    grid-column: 3 / 12;
-    grid-row: 18 / 19;
-    height: 10vh;
+    grid-column: 3 / 23;
+    grid-row: 39 / 40;
+    height: 7vh;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -2290,14 +2322,14 @@ a.nourish_link:hover{
   }
 
   .aboutdescribe{
-    grid-row: 11 / 17;
+    grid-row: 32 / 34;
     grid-column: 1 / 25;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
   }
 
   .aboutme{
@@ -5468,6 +5500,18 @@ a.nourish_link:hover{
       padding-left: 5%;
       width: 100%;
       line-height: 150%;
+    }
+
+    .aboutdescribe h4{
+      font-size: 14px;
+    }
+
+    #pinkh1{
+      font-size: 17.5px;
+    }
+
+    .mobile_link{
+      font-size: 17.5px;
     }
 
     #prototype_nav{
