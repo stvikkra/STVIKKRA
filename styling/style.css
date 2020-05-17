@@ -283,10 +283,6 @@ a.headlink_nourish:hover{
 
 }
 
-#toggle{
-  display: none;
-}
-
 label{
   font-size: 25px;
   color: white;
@@ -305,6 +301,10 @@ label{
 .menu a:hover{
   color: white;
   font-weight: 400;
+}
+
+#toggle{
+  display: none;
 }
 
 #toggle:checked + .menu{
@@ -628,7 +628,6 @@ textarea:focus {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   color: #4A4A4A;
-  justify-self: center;
 }
 
 .description_display {
@@ -2079,8 +2078,8 @@ a.nourish_link:hover{
     background-color: #6D7178;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 60%;
+    width: 25%;
+    height: 30%;
     top: 10%;
     left: 0;
     right: 0;
@@ -2361,7 +2360,7 @@ a.nourish_link:hover{
   /* Case Studies */
 
 
-  #casestudieswrap {
+   #casestudieswrap {
     background-color: white;
     width: 100vw;
     height: 150vh;
@@ -2370,7 +2369,7 @@ a.nourish_link:hover{
     grid-template-rows: repeat(30, 5vh);
   }
 
-  .case_study_title_wrap {
+   .case_study_title_wrap {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 4;
@@ -4399,6 +4398,64 @@ a.nourish_link:hover{
       width: 1280px;
     }
 
+  }
+}
+
+/* Ipad Pro */
+@media screen and (min-height: 1366px){
+
+  @media screen and (min-width: 1024px){
+
+
+  .contact__container {
+  		display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border: 10px solid #6D7178;
+  		border-radius: 10px;
+  		margin: 0 auto;
+  		padding: 0 0 10px 10px;
+      width: 500px;
+      height: 600px;
+  		max-width: 1200px;
+  		background-color: #6D7178;
+  }
+
+  hr {
+  		width: 50%;
+  		display: block;
+  		margin: 5px 0;
+  		height: 5px;
+  		border: 0;
+  		background-color: #FBFBFB;
+  }
+
+  .contact__form-input{
+    margin-bottom: 10%;
+  }
+
+  .contact__form-textarea{
+    margin-bottom: 10%;
+  }
+
+ }
+}
+
+
+
+/* iPad / Ipad Mini / Nexus 9 */
+
+@media screen and (min-height: 1024px) and (min-width: 768px){
+
+  .socialmedialinks{
+    grid-column: 16 / 24;
+    grid-row: 1 / 5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #mywork_nav_page{
+    grid-column: 19 / 23;
   }
 }
 
