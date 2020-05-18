@@ -400,6 +400,13 @@ label{
   margin: 0 auto;
 }
 
+.h3_span{
+  font-family: 'Oswald', sans-serif;
+  font-size: 27.34px;
+  color: #FF537C;
+}
+
+
 .contact__container {
 		display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -490,7 +497,7 @@ textarea:focus {
   background-color: #FF537C;
 }
 
-.form_cta:hover h3{
+.form_cta:hover span{
   color: white;
 }
 
@@ -6272,7 +6279,6 @@ a.nourish_link:hover{
  #case_study_title{
    margin: 0;
    padding: 0;
-   width:
  }
 
  /* Nourish */
