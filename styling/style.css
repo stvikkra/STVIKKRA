@@ -516,7 +516,7 @@ textarea:focus {
 }
 
 .index_socialmedialinks{
-  position: fixed;
+  position: absolute;
   bottom: 3%;
   left: 72%;
   width: 27%;
@@ -2265,7 +2265,7 @@ a.nourish_link_grey:hover{
   }
 
   .index_socialmedialinks{
-    position: fixed;
+    position: absolute;
     bottom: 3%;
     left: 5%;
     right: 5%;
@@ -4479,7 +4479,7 @@ a.nourish_link_grey:hover{
   }
 
   .index_socialmedialinks{
-    position: fixed;
+    position: absolute;
     bottom: 3%;
     left: 20%;
     right: 20%;
