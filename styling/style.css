@@ -4459,6 +4459,18 @@ a.nourish_link_grey:hover{
     height: 100vh;
   }
 
+  a.ipad_link:active{
+      color: #FF537C;
+  }
+
+  a.ipad_link:visited{
+      color: #FF537C;
+  }
+
+  a.ipad_link:hover{
+    color: #C4C4C4;
+  }
+
   .index_socialmedialinks{
     position: fixed;
     bottom: 3%;
@@ -4585,9 +4597,7 @@ a.nourish_link_grey:hover{
   grid-column-end: 13;
   grid-row-start: 4;
   grid-row-end: 5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
   align-items: center;
 }
 
@@ -4599,9 +4609,9 @@ a.nourish_link_grey:hover{
 }
 
 #case_study_title {
-  grid-column: 1 / 13;
-  grid-row: 1 / 2;
   color: #4A4A4A;
+  margin: 0;
+  padding: 0;
 }
 
 .description_display {
@@ -6257,6 +6267,12 @@ a.nourish_link:hover{
   #elysium_img_contain{
    margin: 0;
    max-width: 35%;
+ }
+
+ #case_study_title{
+   margin: 0;
+   padding: 0;
+   width:
  }
 
  /* Nourish */
