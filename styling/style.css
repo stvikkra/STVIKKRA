@@ -8766,9 +8766,9 @@ a.nourish_link:hover{
 
 /* Horizontal iPad Pro */
 
-@media screen and (min-width: 1366px){
+@media screen and (min-width: 1366px) and (max-width: 1366px){
 
-  @media screen and (min-height: 1024px) {
+  @media screen and (min-height: 1024px) and (max-height: 1024px){
 
     /* Wrap Classes */
 
@@ -8789,7 +8789,6 @@ a.nourish_link:hover{
       align-items: center;
       justify-content: flex-start;
       flex-wrap: wrap;
-      border: 10px solid blue;
     }
 
     .viewportcontain_demo{
@@ -9512,10 +9511,16 @@ a.nourish_link:hover{
     }
 
     .about_p{
-      width: 45%;
+      width: 50%;
       margin-left: 5%;
       margin-top: 0;
       padding-bottom: 10%;
+      grid-column: 2 / 24;
+      grid-row: 9 / 14;
+    }
+
+    #carve_p{
+      margin-left: 1%;
     }
 
     .h2about{
@@ -9523,15 +9528,37 @@ a.nourish_link:hover{
       align-self: flex-start;
       margin-left: 4.9%;
       padding-top: 10%;
+      grid-column: 2 / 12;
+      grid-row: 5 / 8;
+    }
+
+    #carve_title{
+      margin: 0;
+      padding: 2%;
+    }
+
+    #growth_title{
+      margin: 0;
+      padding: 2%;
+      grid-row: 3 / 6;
+      grid-column: 2 / 13;
     }
 
     .img_contain{
-      width: 64%;
-      height: 100%;
+      width: 100%;
+      height: 50%;
+      padding-left: 0;
+      margin: 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      grid-column: 15 / 24 ;
+      grid-row: 1 / 17;
+    }
+
+    .img_caption{
+      padding: 0;
+      margin: 0;
     }
 
     #elysium_img_contain{
@@ -9561,15 +9588,37 @@ a.nourish_link:hover{
     }
 
     #jacket{
-      align-self: center;
-      padding-top: 10%;
-      padding-bottom: 5%;
-      width: 55%;
+        padding: 0;
+        padding-right: 3%;
+        margin: 0;
+        width: 100%;
+      }
+
+    #jacket_text{
+      margin: 0;
+      padding: 1%;
+      grid-row: 9 / 10;
+    }
+
+    #carve{
+      display: grid;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(50, 50px);
+      height: 80vh;
+    }
+
+    #growth{
+      display: grid;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(50, 50px);
+      height: 80vh;
     }
 
     #ducks{
       padding: 0;
+      padding-right: 3%;
       margin: 0;
+      width: 100%;
     }
 
     .creativework{
