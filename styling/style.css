@@ -4190,6 +4190,24 @@ a.nourish_link_grey:hover{
       width: 90%;
     }
 
+    #persona_title{
+      padding-left: 5%;
+    }
+
+    .user_subtext{
+      padding-left: 5%;
+      margin-left: 0;
+    }
+
+    #lump_reset{
+      padding-left: 0;
+    }
+
+    #test_title{
+      padding: 0;
+      margin-left: 5%;
+    }
+
     /* Potential Users > Interviews */
 
     #mobile_users{
