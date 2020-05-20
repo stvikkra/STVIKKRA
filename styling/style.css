@@ -9261,7 +9261,6 @@ a.nourish_link:hover{
       background-color: white;
       width: 100%;
       display: grid;
-      grid-template-columns: repeat (5, 1fr);
       justify-content: flex-start;
     }
 
