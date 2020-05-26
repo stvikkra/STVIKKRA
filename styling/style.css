@@ -1351,6 +1351,7 @@ a.nourish_link_grey:hover{
   flex-direction: column;
   background-color: #F4F4F4;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 
 .center_col{
@@ -1361,6 +1362,7 @@ a.nourish_link_grey:hover{
   display: flex;
   background-color: #F4F4F4;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 
 .right_col{
@@ -1371,6 +1373,7 @@ a.nourish_link_grey:hover{
   flex-direction: column;
   background-color: #F4F4F4;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 
 .persona_detail{
