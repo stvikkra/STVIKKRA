@@ -88,7 +88,7 @@ p {
 .title{
   color: #4A4A4A;
   padding: 0;
-  padding-left: 5%;
+  padding-left: 4%;
 }
 
 /* Wrap Classes */
@@ -1725,6 +1725,7 @@ a.nourish_link_grey:hover{
 #lump_reset{
   margin: 0;
   padding-bottom: 3%;
+  padding-left: 0;
 }
 
 #lump_reset_text{
@@ -1749,10 +1750,6 @@ a.nourish_link_grey:hover{
 }
 
 /* User Testing */
-
-#test_title{
-  padding: 0;
-}
 
 .title_feedback{
   grid-column: 2 / 10;
@@ -2705,7 +2702,6 @@ a.nourish_link_grey:hover{
     width: 100%;
   }
 
-
   /* Nourish */
 
   #prototype_nav{
@@ -2726,19 +2722,16 @@ a.nourish_link_grey:hover{
 
   #nourish_front_title{
     max-width: 100%;
-    justify-self: center;
     grid-column: 2 / 25;
     grid-row: 4 / 5;
   }
 
   #nourish_front_mobile{
-    justify-self: center;
     grid-column: 1 / span 24;
     grid-row: 8 / 10;
   }
 
   .nourish_text{
-    justify-self: center;
     grid-column: 2 / 12;
     grid-row: 26 / 30;
   }
@@ -4209,6 +4202,22 @@ a.nourish_link_grey:hover{
     #test_title{
       padding: 0;
       margin-left: 5%;
+    }
+
+    #demo_title{
+      padding-left: 5%;
+    }
+
+    #users_title{
+      padding-left: 5%;
+    }
+
+    #pref_title{
+      padding-left: 5%;
+    }
+
+    #refine_title{
+      padding-left: 5%;
     }
 
     /* Potential Users > Interviews */
