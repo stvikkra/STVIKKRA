@@ -3869,6 +3869,219 @@ a.nourish_link_grey:hover{
       color: white;
     }
 
+    /* About */
+
+    #welcome {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(60, 25px);
+    }
+
+    .blackandwhite {
+      grid-column-start: 1;
+      grid-column-end: 9;
+      grid-row-start: 6;
+      grid-row-end: 36;
+      align-self: flex-end;
+    }
+
+    #mynameis{
+      color: #4A4A4A;
+      line-height: 200%;
+      grid-column-start: 9;
+      grid-column-end: 16;
+      grid-row-start: 8;
+      padding-left: 0;
+      padding-top: 0;
+      margin: 0;
+      font-size: 34.18px;
+    }
+
+    #channel{
+      color: #4A4A4A;
+      line-height: 200%;
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row-start: 8;
+      margin: 0;
+      padding: 0;
+      font-size: 34.18px;
+    }
+
+    #intro_about{
+      color: #4A4A4A;
+      grid-column-start: 9;
+      grid-column-end: 15;
+      grid-row-start: 19;
+      line-height: 200%;
+    }
+
+    #contact_me{
+      color: #4A4A4A;
+      grid-column-start: 9;
+      grid-column-end: 15;
+      grid-row-start: 32;
+      padding-left: 0;
+      line-height: 200%;
+    }
+
+
+    #hobbies{
+      color: #4A4A4A;
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row: 19 / 20;
+      line-height: 200%;
+    }
+
+
+    .musicicons{
+      grid-column-start: 17;
+      grid-column-end: 21;
+      grid-row-start: 25;
+      grid-row-end: 22;
+      padding-top: 13%;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    #soundcloud{
+      width: 62.33px;
+      height: 60.18px;
+    }
+
+    #bandcamp{
+      width: 66px;
+      height: 60.18px;
+    }
+
+    #evenmore{
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row-start: 34;
+      grid-row-end: 35;
+      margin: 0;
+      padding: 0;
+      align-self: flex-start;
+    }
+
+    .down_arrow{
+      grid-row-start: 33;
+      grid-row-end: 34;
+      grid-column-start: 23;
+      grid-column-end: 24;
+      height: 100%;
+      padding-top: 10%;
+    }
+
+    .down_arrow img{
+      width: 100%;
+    }
+
+    a.begin_link:active{
+      display: block;
+    }
+
+    a.begin_link:visited{
+      display: block;
+    }
+
+
+    #more{
+      grid-column-start: 9;
+      grid-column-end: 11;
+      grid-row-start: 11;
+      grid-row-end: 12;
+      align-self: center;
+      padding: 0;
+      width: 35px;
+      height: 35px;
+    }
+
+    .about_p{
+      width: 50%;
+      padding-left: 5%;
+    }
+
+    .h2about{
+      color: #FF537C;
+      align-self: flex-start;
+      margin-left: 4.9%;
+      padding-bottom: 3%;
+    }
+
+    .img_contain{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #elysium_img_contain{
+      width: 30%;
+      padding-left: 0%;
+    }
+
+    .creative_img_contain{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img_caption_opp{
+      padding-top: 5%;
+    }
+
+    #elysium{
+      align-self: center;
+      width: 389.14px;
+      height: 443.84px;
+    }
+
+    #jacket{
+      align-self: center;
+      padding-top: 10%;
+      padding-bottom: 2.5%;
+      width: 80%;
+    }
+
+    #ducks{
+      align-self: center;
+      padding-bottom: 2.5%;
+      padding-left: 10%;
+    }
+
+    .creativework{
+      align-self: center;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #begin{
+      height: 100vh;
+    }
+
+    #earlycreative{
+      height: 80vh;
+    }
+
+    #carve{
+      height: 100vh;
+    }
+
+    #growth{
+      height: 100vh;
+    }
+
     /* Nourish */
 
     .nourish_text{
@@ -4183,7 +4396,7 @@ a.nourish_link_grey:hover{
     .index_socialmedialinks{
       position: absolute;
       bottom: 3%;
-      left: 73%;
+      left: 72%;
       width: 27%;
       display: flex;
       justify-content: space-around;
@@ -4240,6 +4453,221 @@ a.nourish_link_grey:hover{
     .aboutme:hover #about_title{
       color: #C4C4C4;
     }
+
+    /* About */
+
+    #welcome {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(60, 25px);
+    }
+
+    .blackandwhite {
+      grid-column-start: 1;
+      grid-column-end: 8;
+      grid-row-start: 9;
+      grid-row-end: 36;
+      align-self: flex-end;
+    }
+
+    #mynameis{
+      color: #4A4A4A;
+      line-height: 200%;
+      grid-column-start: 9;
+      grid-column-end: 16;
+      grid-row-start: 9;
+      padding-left: 0;
+      padding-top: 0;
+      margin: 0;
+      font-size: 34.18px;
+    }
+
+    #channel{
+      color: #4A4A4A;
+      line-height: 200%;
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row-start: 9;
+      margin: 0;
+      padding: 0;
+      font-size: 34.18px;
+    }
+
+    #intro_about{
+      color: #4A4A4A;
+      grid-column-start: 9;
+      grid-column-end: 15;
+      grid-row-start: 19;
+      line-height: 200%;
+      padding-left: 0;
+    }
+
+    #contact_me{
+      color: #4A4A4A;
+      grid-column-start: 9;
+      grid-column-end: 15;
+      grid-row-start: 31;
+      padding-left: 5%;
+      line-height: 200%;
+    }
+
+
+    #hobbies{
+      color: #4A4A4A;
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row: 19 / 20;
+      line-height: 200%;
+    }
+
+
+    .musicicons{
+      grid-column-start: 17;
+      grid-column-end: 21;
+      grid-row-start: 24;
+      grid-row-end: 25;
+      padding-top: 13%;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    #soundcloud{
+      width: 62.33px;
+      height: 60.18px;
+    }
+
+    #bandcamp{
+      width: 66px;
+      height: 60.18px;
+    }
+
+    #evenmore{
+      grid-column-start: 17;
+      grid-column-end: 24;
+      grid-row-start: 35;
+      grid-row-end: 36;
+      margin: 0;
+      padding: 0;
+      align-self: flex-start;
+    }
+
+    .down_arrow{
+      grid-row-start: 34;
+      grid-row-end: 35;
+      grid-column-start: 23;
+      grid-column-end: 24;
+      height: 100%;
+      padding-top: 10%;
+    }
+
+    .down_arrow img{
+      width: 100%;
+    }
+
+    a.begin_link:active{
+      display: block;
+    }
+
+    a.begin_link:visited{
+      display: block;
+    }
+
+
+    #more{
+      grid-column-start: 9;
+      grid-column-end: 11;
+      grid-row-start: 11;
+      grid-row-end: 12;
+      align-self: center;
+      padding: 0;
+      width: 35px;
+      height: 35px;
+    }
+
+    .about_p{
+      width: 50%;
+      padding-left: 5%;
+    }
+
+    .h2about{
+      color: #FF537C;
+      align-self: flex-start;
+      margin-left: 4.9%;
+      padding-bottom: 3%;
+    }
+
+    .img_contain{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #elysium_img_contain{
+      width: 30%;
+      padding-left: 0%;
+    }
+
+    .creative_img_contain{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img_caption_opp{
+      padding-top: 5%;
+    }
+
+    #elysium{
+      align-self: center;
+      width: 389.14px;
+      height: 443.84px;
+    }
+
+    #jacket{
+      align-self: center;
+      padding-top: 10%;
+      padding-bottom: 2.5%;
+      width: 80%;
+    }
+
+    #ducks{
+      align-self: center;
+      padding-bottom: 2.5%;
+      padding-left: 10%;
+    }
+
+    .creativework{
+      align-self: center;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #begin{
+      height: 100vh;
+    }
+
+    #earlycreative{
+      height: 80vh;
+    }
+
+    #carve{
+      height: 100vh;
+    }
+
+    #growth{
+      height: 100vh;
+    }
+
 
     .nourish_text{
       grid-row: 25 / 26;
