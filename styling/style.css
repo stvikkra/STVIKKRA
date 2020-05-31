@@ -998,8 +998,8 @@ a.nourish_link_grey:hover{
 
 #nourish_front_title{
   width: 100%;
-  grid-column: 7 / 21;
-  grid-row: 4 / 6;
+  grid-column: 5 / 21;
+  grid-row: 3 / 6;
 }
 
 #nourish_front_mobile{
@@ -2797,7 +2797,7 @@ a.nourish_link_grey:hover{
 
   #nourish_front_title{
     max-width: 100%;
-    grid-column: 2 / 25;
+    grid-column: 1 / 24;
     grid-row: 4 / 5;
   }
 
