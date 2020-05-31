@@ -329,7 +329,22 @@ label{
 .footer_wrap {
     background-color: #6D7178;
     width: 100%;
+    height: 12%;
+    grid-row: 18 / 20;
+    grid-column: 2 / 12;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 4vh 4vh 4vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_wrap_index{
+    background-color: transparent;
+    width: 100%;
     height: 15%;
+    grid-row: 18 / 20;
+    grid-column: 1 / 12;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: 5vh 5vh 5vh;
@@ -339,11 +354,20 @@ label{
 
 .name_avi{
   grid-row: 1 / 4;
-  grid-column: 2 / 7;
-  width: 35%;
+  grid-column: 2 / 12;
+  width: 100%;
   display: flex;
   align-items: center;
+  padding: 0;
+}
 
+.name_avi_index{
+  grid-row: 2 / 4;
+  grid-column: 2 / 12;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
 .avi{
@@ -354,12 +378,11 @@ label{
 .name_email{
   color: white;
   line-height: 150%;
-  margin-left: 20%;
 }
 
 .footer_email{
   color: white;
-
+  font-size: 11.2px;
 }
 
 .socialmedialinks{
@@ -373,7 +396,7 @@ label{
   color: white;
   font-family: 'Prompt', sans-serif;
   width: 100%;
-  font-size: 20px;
+  font-size: 21.88px;
   line-height: 150%;
   margin: 0;
   padding-top: 5%;
@@ -396,7 +419,7 @@ label{
   align-self: flex-end;
   display: flex;
   align-items: center;
-  height: 75%;
+  height: 78%;
   margin: 0 auto;
 }
 
@@ -414,7 +437,7 @@ label{
 		border-radius: 10px;
 		margin: 0 auto;
 		padding: 0 0 10px 10px;
-		max-width: 330px;
+		width: 450px;
 		background-color: #6D7178;
 
 }
@@ -451,7 +474,7 @@ textarea {
 		resize: none;
 		padding: 0 5px;
 		box-sizing: border-box;
-		font-size: 14px;
+		font-size: 17.5px;
 		color: #141414;
 }
 
@@ -517,7 +540,7 @@ textarea:focus {
 
 .index_socialmedialinks{
   position: absolute;
-  bottom: 3%;
+  bottom: 2.5%;
   left: 70.5%;
   width: 27%;
   display: flex;
@@ -1397,6 +1420,7 @@ a.nourish_link_grey:hover{
   background-color: #F4F4F4;
   border-radius: 10px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .center_col{
@@ -1408,6 +1432,7 @@ a.nourish_link_grey:hover{
   background-color: #F4F4F4;
   border-radius: 10px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .right_col{
@@ -1419,6 +1444,7 @@ a.nourish_link_grey:hover{
   background-color: #F4F4F4;
   border-radius: 10px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .persona_detail{
@@ -1466,13 +1492,12 @@ a.nourish_link_grey:hover{
 
 .col_text{
   color: #4A4A4A;
-  font-size: 12.8px;
   line-height: 200%
 }
 
 .col_text_head{
   color: #4A4A4A;
-  font-size: 14px;
+  font-size: 21.88px;
   line-height: 200%;
   font-weight: 400;
 }
@@ -2202,14 +2227,18 @@ a.nourish_link_grey:hover{
       width: 100%;
       height: auto;
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
   }
 
-  .avi{
-    align-self: center;
-    width: 125px;
-    height: 125px;
+  .footer_wrap_index{
+      background-color: transparent;
+      width: 100%;
+      height: 15%;
+      grid-row: 54 / 55;
+      grid-column: 1 / 51;
+      display: flex;
+      align-items: center;
   }
 
   .name_avi{
@@ -2217,26 +2246,36 @@ a.nourish_link_grey:hover{
     color: white;
     line-height: 150%;
     width: 100%;
-    height: 10em;
+    height: 7em;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 10%;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .name_avi_index{
+    width: 100%;
+    grid-column: 1 / 51;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 
   .footer_email{
     color: white;
+    width: 100%;
 
   }
 
   .name_email{
-    margin-left: 3%;
+    text-align: center;
+    width: 100%;
   }
 
   .socialmedialinks{
     background-color: #484B50;
     width: 100%;
-    height: 5em;
+    height: 7em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -2267,7 +2306,7 @@ a.nourish_link_grey:hover{
     align-self: flex-end;
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 90vh;
     margin: 0 auto;
   }
 
@@ -2306,14 +2345,14 @@ a.nourish_link_grey:hover{
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(50, 2vh);
     width: 100vw;
-    height: 100vh;
+    height: 111vh;
   }
 
   .index_socialmedialinks{
     position: absolute;
-    bottom: 3%;
     left: 5%;
     right: 5%;
+    bottom: 12%;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -3802,7 +3841,6 @@ a.nourish_link_grey:hover{
 
     .index_socialmedialinks{
       position: absolute;
-      bottom: 3%;
       left: 70%;
       width: 27%;
       display: flex;
@@ -4395,7 +4433,6 @@ a.nourish_link_grey:hover{
 
     .index_socialmedialinks{
       position: absolute;
-      bottom: 3%;
       left: 72%;
       width: 27%;
       display: flex;
@@ -4776,7 +4813,6 @@ a.nourish_link_grey:hover{
 
       .index_socialmedialinks{
         position: absolute;
-        bottom: 3%;
         left: 71%;
         width: 27%;
         display: flex;
@@ -5110,7 +5146,6 @@ a.nourish_link_grey:hover{
 
   .index_socialmedialinks{
     position: absolute;
-    bottom: 3%;
     left: 20%;
     right: 20%;
     width: 60%;
@@ -9406,7 +9441,6 @@ a.nourish_link:hover{
     		resize: none;
     		padding: 0 5px;
     		box-sizing: border-box;
-    		font-size: 14px;
     		color: #141414;
     }
 
@@ -9473,7 +9507,6 @@ a.nourish_link:hover{
 
     .index_socialmedialinks{
       position: absolute;
-      bottom: 3%;
       left: 77.5%;
       width: 20%;
       display: flex;
