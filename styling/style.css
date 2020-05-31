@@ -642,6 +642,7 @@ textarea:focus {
   padding-top: 5%;
   padding-left: 2%;
   margin-bottom: 5%;
+  font-size: 17.5px;
 }
 
 
@@ -880,7 +881,7 @@ a.begin_link:visited{
 }
 
 .img_contain{
-  width: 64%;
+  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -893,6 +894,17 @@ a.begin_link:visited{
   padding-left: 0%;
 }
 
+.creative_img_contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_caption_opp{
+  padding-top: 5%;
+}
+
 #elysium{
   align-self: center;
   width: 389.14px;
@@ -902,14 +914,14 @@ a.begin_link:visited{
 #jacket{
   align-self: center;
   padding-top: 10%;
-  padding-bottom: 5%;
-  width: 55%;
+  padding-bottom: 2.5%;
+  width: 80%;
 }
 
 #ducks{
   align-self: center;
-  padding-bottom: 5%;
-
+  padding-bottom: 2.5%;
+  padding-left: 10%;
 }
 
 .creativework{
@@ -3852,231 +3864,22 @@ a.nourish_link_grey:hover{
       color: white;
     }
 
-    .aboutdescribe{
-      grid-column-start: 9;
-      grid-column-end: 13;
-      grid-row-start: 11;
-      grid-row-end: 14;
-      padding-top: 6%;
-      display: flex;
-    }
-
-    .aboutdescribe h4{
-      font-size: 27.34px;
-    }
-
-    .aboutme{
-      grid-column-start: 9;
-      grid-column-end: 12;
-      grid-row-start: 17;
-      grid-row-end: 18;
-      padding-top: 11%;
-      margin: 0;
-    }
-
-    .aboutme:hover #about_title{
-      color: #C4C4C4;
-    }
-
-    #about_title{
-      padding-left: 20%;
-    }
-
-    /* About */
-
-    #welcome {
-      width: 100vw;
-      height: 100vh;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(12, 1fr);
-    }
-
-    .blackandwhite {
-      max-width: 100%;
-      height: 100%;
-      grid-column-start: 2;
-      grid-column-end: 5;
-      grid-row-start: 5;
-      grid-row-end: 12;
-      align-self: flex-end;
-    }
-
-    #mynameis{
-      color: #4A4A4A;
-      line-height: 200%;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 5;
-      padding-left: 10%;
-      margin: 0;
-    }
-
-    #channel{
-      color: #4A4A4A;
-      line-height: 200%;
-      grid-column-start: 9;
-      grid-column-end: 12;
-      grid-row-start: 5;
-      margin: 0;
-      padding: 0;
-
-    }
-
-    #intro_about{
-      color: #4A4A4A;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 7;
-      padding-left: 10%;
-      line-height: 200%;
-    }
-
-    #contact_me{
-      color: #4A4A4A;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 9;
-      padding-left: 10%;
-      line-height: 200%;
-    }
-
-
-    #hobbies{
-      color: #4A4A4A;
-      grid-column-start: 9;
-      grid-column-end: 12;
-      grid-row-start: 7;
-      line-height: 200%;
-    }
-
-    .contacticons{
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 10;
-      grid-row-end: 12;
-      margin-left: 10%;
-      align-self: flex-end;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .musicicons{
-      grid-column-start: 9;
-      grid-column-end: 11;
-      grid-row-start: 8;
-      grid-row-end: 10;
-      margin-bottom: 10%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-
-    #soundcloud{
-      width: 62.33px;
-      height: 60.18px;
-    }
-
-    #bandcamp{
-      width: 66px;
-      height: 60.18px;
-    }
-
-    #evenmore{
-      color: #FF537C;
-      grid-column-start: 9;
-      grid-column-end: 12;
-      grid-row-start: 11;
-      grid-row-end: 12;
-      margin: 0;
-      padding: 0;
-      align-self: flex-end;
-    }
-
-
-    #more{
-      grid-column-start: 9;
-      grid-column-end: 11;
-      grid-row-start: 11;
-      grid-row-end: 12;
-      align-self: center;
-      padding: 0;
-      width: 35px;
-      height: 35px;
-    }
-
-    .about_p{
-      width:40%;
-      margin-left: 5%;
-    }
-
-    .h2about{
-      color: #FF537C;
-      align-self: flex-start;
-      margin-left: 4.9%;
-      padding-bottom: 3%;
-    }
-
-    .img_contain{
-      width: 31%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-    }
-
-    #elysium{
-      align-self: center;
-      width: 389.14px;
-      height: 443.84px;
-    }
-
-    #elysium_img_contain{
-      margin-left: 0%;
-    }
-
-    #jacket{
-      padding-bottom: 5%;
-      padding-left: 35%;
-      width: 620px;
-      height: 500px;
-      text-align: center;
-    }
-
-    #ducks{
-      align-self: center;
-      padding-bottom: 5%;
-      padding-left: 35%;
-
-    }
-
-    .creativework{
-      align-self: center;
-      width: 90%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .creative_img_contain{
-      text-align: center;
-    }
-
-    .img_caption{
-      padding-left: 38%;
-      margin: 0;
-    }
-
-    .img_caption_opp{
-      padding-top: 10%;
-    }
-
     /* Nourish */
 
-    #nourish_front_mobile{
-      padding-top: 20%;
+    .nourish_text{
+      grid-row: 27 / 28;
+    }
+
+    .nourish_cta{
+      grid-row: 31 / 32;
+    }
+
+    #prototype_nav{
+      height: 190vh;
+    }
+
+    #mobile_ps{
+      height: 100vh;
     }
 
     .viewport_title{
@@ -4108,13 +3911,13 @@ a.nourish_link_grey:hover{
     }
 
     #mobile_comp{
-      height: 60vh;
+      height: 50vh;
     }
 
 
     #comp_cta{
       grid-column: 2 / 6;
-      grid-row: 10 / 12;
+      grid-row: 16 / 18;
     }
 
     #info_nav{
@@ -4281,11 +4084,11 @@ a.nourish_link_grey:hover{
 
     #flow_cta{
       grid-column: 2 / 6;
-      grid-row: 9 / 11;
+      grid-row: 13 / 15;
     }
 
     #mobile_flow{
-      height: 60vh;
+      height: 42vh;
     }
 
     #mobile_flow_img{
@@ -4293,11 +4096,11 @@ a.nourish_link_grey:hover{
     }
 
     #mobile_wireframe_title{
-      height: 45vh;
+      height: 37vh;
     }
 
     #wireframe_cta{
-      grid-row: 7 / 9;
+      grid-row: 11 / 13;
       grid-column: 2 / 7;
     }
 
@@ -4325,6 +4128,14 @@ a.nourish_link_grey:hover{
       display: flex;
       justify-content: space-around;
       align-items: center;
+    }
+
+    #conclusion_nav{
+      height: 75vh;
+    }
+
+    .top_row{
+      width: 41%;
     }
 
   }
@@ -4410,94 +4221,36 @@ a.nourish_link_grey:hover{
       color: white;
     }
 
-    .aboutdescribe{
-      grid-column-start: 18;
-      grid-column-end: 25;
-      grid-row-start: 10;
-      grid-row-end: 12;
-      display: flex;
-      padding-top: 16%;
-    }
-
-    .aboutme{
-      grid-column-start: 9;
-      grid-column-end: 13;
-      grid-row-start: 16;
-      grid-row-end: 18;
-      padding-top: 12%;
-      margin: 0;
-    }
-
-    .blackandwhite{
-      padding-right: 10%;
-    }
-
     .aboutme:hover #about_title{
       color: #C4C4C4;
     }
 
-    #about_title{
-      padding-left: 20%;
-    }
-
-    #mynameis{
-      color: #4A4A4A;
-      line-height: 200%;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 5;
-      padding-left: 15%;
-      margin: 0;
-    }
-
-    #intro_about{
-      color: #4A4A4A;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 7;
-      padding-left: 15%;
-      line-height: 200%;
-    }
-
-    #contact_me{
-      color: #4A4A4A;
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 9;
-      padding-left: 15%;
-      line-height: 200%;
-    }
-
-    .contacticons{
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 10;
-      grid-row-end: 12;
-      margin-left: 15%;
-      align-self: flex-end;
-      display: flex;
-      justify-content: space-between;
+    .nourish_text{
+      grid-row: 25 / 26;
     }
 
     .nourish_cta{
-      grid-row: 16 / 18;
+      grid-row: 30 / 31;
     }
 
-    #nourish_front_mobile{
-      padding-top: 25%;
+    #prototype_nav{
+      height: 170vh;
     }
 
-    #img_comp_viewport{
-      height: 50vh;
+    .stat_description{
+      padding-top: 12%;
     }
 
-    #mobile_flow{
-      height: 55vh;
+    .stat_title{
+      padding-top: 5%;
     }
 
-    .flow_img{
-      height: 800px;
-      width: 1280px;
+    #comp_cta{
+      grid-row: 17 / 19;
+    }
+
+    #flow_cta{
+      grid-row: 14 / 16;
     }
 
   }
