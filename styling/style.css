@@ -1971,7 +1971,7 @@ a.nourish_link_grey:hover{
   .title{
     color: #4A4A4A;
     margin: 0;
-    padding-left: 5%;
+    padding-left: 10%;
     width: 100%;
     line-height: 150%;
   }
@@ -2780,7 +2780,7 @@ a.nourish_link_grey:hover{
   /* Nourish */
 
   #prototype_nav{
-    height: 170vh;
+    height: 130vh;
   }
 
   a.nourish_link:link{
@@ -2803,12 +2803,14 @@ a.nourish_link_grey:hover{
 
   #nourish_front_mobile{
     grid-column: 1 / span 24;
-    grid-row: 8 / 10;
+    padding-top: 10%;
+    grid-row: 6 / 10;
   }
 
   .nourish_text{
     grid-column: 2 / 12;
-    grid-row: 26 / 30;
+    grid-row: 12 / 15;
+    padding-top: 5%;
   }
 
   .nourish_cta_text{
@@ -2825,7 +2827,7 @@ a.nourish_link_grey:hover{
     justify-content: center;
     border-radius: 10px;
     background-color: #C9FFDD;
-    grid-row: 24 / 25;
+    grid-row: 20 / 21;
     grid-column: 2 / 12;
   }
 
@@ -2849,7 +2851,7 @@ a.nourish_link_grey:hover{
   /* Problem and Solution */
 
   #mobile_ps{
-    height: 90vh;
+    height: 145vh;
   }
 
   .psheader{
@@ -2879,13 +2881,13 @@ a.nourish_link_grey:hover{
   /* Survey Responses */
 
   #mobile_responses{
-    height: 110vh;
+    height: 130vh;
   }
 
   #allgroups{
     width: 320px;
     grid-column: 1 / 13;
-    grid-row: 17 / 19;
+    grid-row: 21 / 22;
     padding-right: 3%;
     margin: 0 auto;
   }
@@ -2893,7 +2895,7 @@ a.nourish_link_grey:hover{
   #survey_groups{
     width: 320px;
     grid-column: 1 / 13;
-    grid-row: 10 / 19;
+    grid-row: 14 / 17;
     padding-right: 3%;
     margin: 0 auto;
   }
@@ -2909,24 +2911,24 @@ a.nourish_link_grey:hover{
     margin: 0;
     padding: 0;
     grid-column: 2 / 12;
-    grid-row: 6 / 12;
+    grid-row: 8 / 12;
   }
 
   /* Key Takeaways */
 
   #keytakeaway_master{
     width: 100vw;
-    height: 162vh;
+    height: 155vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(25, 50px);
   }
 
   #top_responses{
-    width: 320px;
+    width: 350px;
     margin: 0 auto;
     grid-column: 1 / 13;
-    grid-row: 11 / 14;
+    grid-row: 12 / 14;
   }
 
   #features{
@@ -2941,7 +2943,7 @@ a.nourish_link_grey:hover{
     margin: 0;
     width: 100%;
     grid-column: 2 / 8;
-    grid-row: 16 / 18;
+    grid-row: 17 / 19;
   }
 
   #features_title{
@@ -2990,7 +2992,7 @@ a.nourish_link_grey:hover{
 
   #meat{
     grid-column: 2 / 12;
-    grid-row: 19 / 21;
+    grid-row: 20 / 22;
   }
 
   #meat_img{
@@ -3005,6 +3007,7 @@ a.nourish_link_grey:hover{
   .stat_title{
     font-family: Prompt, sans-serif;
     color: white;
+    font-size: 17.5px;
     font-weight: 600;
     padding-top: 1%;
     padding-left: 5%;
@@ -3018,14 +3021,15 @@ a.nourish_link_grey:hover{
     font-size: 11.2px;
     padding-left: 10%;
     padding-right: 5%;
+    padding-top: 8%;
     line-height: 150%;
     grid-column: 3 / 11;
-    grid-row: 5 / 6;
+    grid-row: 3 / 6;
   }
 
   #veg{
     grid-column: 2 / 12;
-    grid-row: 22 / 24;
+    grid-row: 23 / 25;
   }
 
   #veg_img{
@@ -3209,7 +3213,7 @@ a.nourish_link_grey:hover{
   }
 
   #mobile_comp{
-    height: 65vh;
+    height: 90vh;
     grid-template-rows: repeat(50, 25px);
   }
 
@@ -3218,7 +3222,7 @@ a.nourish_link_grey:hover{
   }
 
   #comp_cta{
-    grid-row: 19 / 21;
+    grid-row: 27 / 29;
     grid-column: 2 / 12;
   }
   .analysis_text{
@@ -3243,7 +3247,7 @@ a.nourish_link_grey:hover{
   }
 
   #info_nav{
-    height: 45vh;
+    height: 55vh;
   }
 
   #persona_title{
@@ -3370,7 +3374,7 @@ a.nourish_link_grey:hover{
   /* Potential Users > Interviews */
 
   #mobile_users{
-    height: 40vh;
+    height: 50vh;
   }
 
   #interviews{
@@ -3397,7 +3401,7 @@ a.nourish_link_grey:hover{
   /* User Stories */
 
   #user_stories{
-    height: 198vh;
+    height: 205vh;
   }
 
   .asauser{
@@ -3437,7 +3441,7 @@ a.nourish_link_grey:hover{
   .priority{
     flex: 0 0 100%;
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 30%;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -3533,20 +3537,20 @@ a.nourish_link_grey:hover{
   /* Flows / Sitemap */
 
   #mobile_flow{
-    height: 60vh;
+    height: 75vh;
   }
 
   .flow_title{
     grid-column: 1 / 12;
     grid-row: 1 / 5;
     line-height: 150%;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 5%;
   }
 
   #flow_cta{
     grid-column: 2 / 12;
-    grid-row: 9 / 10;
+    grid-row: 22 / 24;
   }
 
   .flowtext{
@@ -3569,7 +3573,7 @@ a.nourish_link_grey:hover{
 
   #wireframe_cta{
     grid-column: 2 / 12;
-    grid-row: 7 / 8;
+    grid-row: 14 / 16;
   }
 
   #mobile_wireframe{
@@ -3577,13 +3581,17 @@ a.nourish_link_grey:hover{
   }
 
   #mobile_wireframe_title{
-    height: 40vh;
+    height: 50vh;
   }
 
   #wireframe_title{
     align-self: flex-start;
     width: 100%;
     padding-top: 5%;
+  }
+
+  #wiretext{
+    padding-top: 20%;
   }
 
   .wireframe_contain{
@@ -3637,7 +3645,7 @@ a.nourish_link_grey:hover{
   /* Icons and Sizing */
 
   #icons_sizing{
-    height: 85vh;
+    height: 105vh;
   }
 
   .icon_avatar{
@@ -3667,6 +3675,7 @@ a.nourish_link_grey:hover{
     margin: 0;
     padding-bottom: 5%;
     padding-top: 10%;
+    padding-left: 10%;
   }
 
   #lump_reset_text{
