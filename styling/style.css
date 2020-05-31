@@ -3401,7 +3401,8 @@ a.nourish_link_grey:hover{
   /* User Stories */
 
   #user_stories{
-    height: 205vh;
+    height: 190vh;
+    grid-template-rows: repeat(80, 40px);
   }
 
   .asauser{
@@ -3669,6 +3670,7 @@ a.nourish_link_grey:hover{
     justify-content: center;
     height: 100%;
     width: 100%;
+    padding: 0;
   }
 
   #lump_reset{
@@ -8043,329 +8045,54 @@ a.nourish_link:hover{
    padding-bottom: 5%;
  }
 
-
-
-
 }
 
 /* (iphone 6,7, 8 Plus) */
 
 @media screen and (max-width: 416px) and (max-height: 738px) {
 
-  #prototype_nav{
-    height: 180vh;
-  }
-
   #welcome{
-    height: 195vh;
+    height: 200vh;
   }
 
-  .nourish_cta{
-    grid-row: 25 / 26;
+  #prototype_nav{
+    height: 150vh;
   }
 
-  .nourish_text{
-    grid-row: 27 / 29;
-  }
-
-  #mobile_ps{
-    height: 90vh;
-  }
-
-  #mobile_responses{
-    height: 135vh;
-  }
-
-  #responses_2{
-    grid-row: 7 / 8;
+  #keytakeaway_master{
+    height: 170vh;
   }
 
   #mobile_comp{
-    height: 70vh;
-    grid-template-rows: repeat(50, 25px);
-  }
-
-  #comp_text{
-    grid-row: 3 / 5;
-  }
-
-  #comp_cta{
-    grid-row: 18 / 20;
-  }
-
-  #allgroups{
-    grid-row: 21 / 22;
-  }
-
-  #survey_groups{
-    grid-row: 12 / 14;
+    height: 100vh;
   }
 
   #mobile_persona{
-    height: 305vh;
-  }
-
-  .left_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 2 / 19;
-    display: flex;
-    flex-direction: column;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .center_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 20 / 35;
-    flex-direction: column;
-    display: flex;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .right_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 36 / 50;
-    display: flex;
-    flex-direction: column;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .goals{
-    margin-top: 15%;
-    align-self: center;
-    width: 80%;
-  }
-
-  #goals_carrie{
-  }
-
-  #goals_chelsea{
-
-  }
-
-  #grace{
-    margin-top: 25%;
-  }
-
-  .traits_contain{
-    padding: 0;
+    height: 300vh;
   }
 
   #interviews{
     height: 375vh;
-    grid-template-rows: repeat(100, 50px);
-  }
-
-  #interview_col_left{
-    grid-row: 2 / 19;
-
-  }
-
-  #interview_col_center{
-    grid-row: 20 / 37;
-  }
-
-  #interview_col_right{
-    grid-row: 38 / 55;
-  }
-
-  #user_stories{
-    width: 100vw;
-    height: 245vh;
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(50, 50px);
-  }
-
-  .asauser{
-    grid-column: 1 / 11;
-    grid-row: 2 / 3;
-    background-color: #432C30;
-    display: flex;
-    align-items: center;
-  }
-
-  .iwantto{
-    grid-column: 14 / 25;
-    grid-row: 3 / 4;
-    background-color: #432C30;
-    display: flex;
-    align-items: center;
-  }
-
-  .display_text{
-    padding-left: 15%;
-    margin: 0;
-    width: 100%;
-    font-family: 'Prompt', sans-serif;
-    font-style: italic;
-    color: white;
-  }
-
-  .story{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #FDF0D5;
-    border-radius: 10px;
-  }
-
-  .priority{
-    flex: 0 0 100%;
-    display: flex;
-    flex-basis: 30%;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border-radius: 0 10px 10px 0;
-  }
-
-
-  .priority_text{
-    font-weight: 600;
-    color: white;
-  }
-
-  .story_text{
-    font-size: 12.8px;
-    padding-left: 3%;
-    margin-right: 3%;
-  }
-
-  #story1{
-    grid-column: 2 / 24;
-    grid-row: 5 / 7;
-  }
-
-  #story2{
-    grid-column: 2 / 24;
-    grid-row: 8 / 10;
-  }
-
-  #story3{
-    grid-column: 2 / 24;
-    grid-row: 11 / 13;
-  }
-
-  #story4{
-    grid-column: 2 / 24;
-    grid-row: 14 / 16;
-  }
-
-  #story5{
-    grid-column: 2 / 24;
-    grid-row: 17 / 19;
-  }
-
-  #story6{
-    grid-column: 2 / 24;
-    grid-row: 20 / 22;
-  }
-
-  #story7{
-    grid-column: 2 / 24;
-    grid-row: 23 / 25;
-  }
-
-  #story8{
-    grid-column: 2 / 24;
-    grid-row: 26 / 28;
-  }
-
-  #story9{
-    grid-column: 2 / 24;
-    grid-row: 29 / 31;
-  }
-
-  #story10{
-    grid-column: 2 / 24;
-    grid-row: 32 / 34;
-  }
-
-  .strikethrough{
-    position: absolute;
-    height: 2px;
-    width: 87%;
-    background-color: #D67D7D;
-  }
-
-  .story_caption{
-    padding-top: 10%;
-    line-height: 225%;
-    grid-column: 3 / 23;
-    grid-row: 34 / 38;
-  }
-
-  .high{
-    background-color: #398A6A;
-  }
-
-  .medium{
-    background-color: #603F45;
-  }
-
-  .low{
-    background-color: #6D7178;
   }
 
   #mobile_flow{
-    grid-template-rows: repeat(50, 25px);
-    height: 62vh;
+    height: 83vh;
   }
 
-  #flow_desc{
-    padding-top: 20%;
-  }
-
-  #flow_cta{
-    grid-row: 16 / 18;
-  }
-
-  #flow_img{
-    height: 736px;
-  }
-
-  #mobile_wireframe{
-    height: 250vh;
+  #user_stories{
+    height: 205vh;
   }
 
   #mobile_wireframe_title{
-    background-color: #F4F4F4;
-    width: 100vw;
-    height: 42vh;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(50, 25px);
-  }
-
-  #wireframe_cta{
-    grid-column: 2 / 12;
-    grid-row: 10 / 12;
-  }
-
-  #wiretext{
-    grid-row: 2 / 5;
-    padding-top: 15%;
-  }
-
-  #mobile_pref{
-    height: 240vh;
-    display: flex;
-  }
-
-  .example{
-    align-self: center;
-    width: 80%;
+    height: 55vh;
   }
 
   #icons_sizing{
-    height: 100vh;
+    height: 115vh;
+  }
+
+  #test_title{
+    padding-left: 10%;
   }
 
 }
@@ -8400,352 +8127,7 @@ a.nourish_link:hover{
     height: 280vh;
   }
 
-  #prototype_nav{
-    height: 200vh;
-  }
 
-  .nourish_cta{
-    grid-row: 26 / 27;
-  }
-
-  .nourish_text{
-    grid-row: 28 / 29;
-  }
-
-  #mobile_ps{
-    height: 110vh;
-  }
-
-  #mobile_responses{
-    height: 135vh;
-  }
-
-  #responses_2{
-    grid-row: 7 / 8;
-  }
-
-  #allgroups{
-    grid-row: 21 / 22;
-  }
-
-  #survey_groups{
-    grid-row: 12 / 14;
-  }
-
-  #keytakeaway_master{
-    height: 177vh;
-  }
-
-  #mobile_comp{
-    height: 84vh;
-    grid-template-rows: repeat(50, 25px);
-  }
-
-  #comp_text{
-    grid-row: 3 / 5;
-  }
-
-  #comp_cta{
-    grid-row: 20 / 22;
-  }
-
-  #mobile_persona{
-    height: 345vh;
-  }
-
-  .left_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 2 / 22;
-    display: flex;
-    flex-direction: column;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .center_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 23 / 38;
-    flex-direction: column;
-    display: flex;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .right_col{
-    width: 100%;
-    grid-column: 3 / 23;
-    grid-row: 39 / 53;
-    display: flex;
-    flex-direction: column;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  }
-
-  .goals{
-    margin-top: 15%;
-    align-self: center;
-    width: 80%;
-  }
-
-  #goals_carrie{
-
-  }
-
-  #goals_chelsea{
-
-  }
-
-  #grace{
-    margin-top: 25%;
-  }
-
-  .traits_contain{
-    padding: 0;
-  }
-
-  #interviews{
-    height: 415vh;
-    grid-template-rows: repeat(100, 50px);
-  }
-
-  #interview_col_left{
-    grid-row: 2 / 19;
-
-  }
-
-  #interview_col_center{
-    grid-row: 20 / 37;
-  }
-
-  #interview_col_right{
-    grid-row: 38 / 55;
-  }
-
-  #user_stories{
-    width: 100vw;
-    height: 270vh;
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(50, 50px);
-  }
-
-  .asauser{
-    grid-column: 1 / 11;
-    grid-row: 2 / 3;
-    background-color: #432C30;
-    display: flex;
-    align-items: center;
-  }
-
-  .iwantto{
-    grid-column: 14 / 25;
-    grid-row: 3 / 4;
-    background-color: #432C30;
-    display: flex;
-    align-items: center;
-  }
-
-  .display_text{
-    padding-left: 15%;
-    margin: 0;
-    width: 100%;
-    font-family: 'Prompt', sans-serif;
-    font-style: italic;
-    color: white;
-  }
-
-  .story{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #FDF0D5;
-    border-radius: 10px;
-  }
-
-  .priority{
-    flex: 0 0 100%;
-    display: flex;
-    flex-basis: 30%;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border-radius: 0 10px 10px 0;
-  }
-
-
-  .priority_text{
-    font-weight: 600;
-    color: white;
-  }
-
-  .story_text{
-    font-size: 12.8px;
-    padding-left: 3%;
-    margin-right: 3%;
-  }
-
-  #story1{
-    grid-column: 2 / 24;
-    grid-row: 5 / 7;
-  }
-
-  #story2{
-    grid-column: 2 / 24;
-    grid-row: 8 / 10;
-  }
-
-  #story3{
-    grid-column: 2 / 24;
-    grid-row: 11 / 13;
-  }
-
-  #story4{
-    grid-column: 2 / 24;
-    grid-row: 14 / 16;
-  }
-
-  #story5{
-    grid-column: 2 / 24;
-    grid-row: 17 / 19;
-  }
-
-  #story6{
-    grid-column: 2 / 24;
-    grid-row: 20 / 22;
-  }
-
-  #story7{
-    grid-column: 2 / 24;
-    grid-row: 23 / 25;
-  }
-
-  #story8{
-    grid-column: 2 / 24;
-    grid-row: 26 / 28;
-  }
-
-  #story9{
-    grid-column: 2 / 24;
-    grid-row: 29 / 31;
-  }
-
-  #story10{
-    grid-column: 2 / 24;
-    grid-row: 32 / 34;
-  }
-
-  .strikethrough{
-    position: absolute;
-    height: 2px;
-    width: 87%;
-    background-color: #D67D7D;
-  }
-
-  .story_caption{
-    padding-top: 10%;
-    line-height: 225%;
-    grid-column: 3 / 23;
-    grid-row: 34 / 38;
-  }
-
-  .high{
-    background-color: #398A6A;
-  }
-
-  .medium{
-    background-color: #603F45;
-  }
-
-  .low{
-    background-color: #6D7178;
-  }
-
-  #mobile_flow{
-    grid-template-rows: repeat(50, 25px);
-    height: 68vh;
-  }
-
-  #flow_desc{
-    padding-top: 20%;
-  }
-
-  #flow_cta{
-    grid-row: 16 / 18;
-  }
-
-  #flow_img{
-    height: 667px;
-  }
-
-  #mobile_wireframe{
-    height: 275vh;
-  }
-
-  #mobile_wireframe_title{
-    background-color: #F4F4F4;
-    width: 100vw;
-    height: 50vh;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(50, 25px);
-  }
-
-  #wireframe_cta{
-    grid-column: 2 / 12;
-    grid-row: 11 / 13;
-  }
-
-  #wiretext{
-    grid-row: 2 / 5;
-    padding-top: 15%;
-  }
-
-  #mobile_pref{
-    height: 275vh;
-    display: flex;
-  }
-
-  #mobile_users{
-    height: 48vh;
-  }
-
-  #icons_sizing{
-    height: 105vh;
-  }
-
-  .example{
-    align-self: center;
-    width: 80%;
-  }
-
-  #feedback{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 145vh;
-  }
-
-  .title_feedback{
-    width: 80%;
-    line-height: 300%;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 600;
-    font-size: 17.5px;
-    color: #4A4A4A;
-  }
-
-  #mobile_attempts{
-    height: 320vh;
-    justify-content: space-evenly;
-  }
-
-  #mobile_refine{
-    height: 412vh;
-  }
 
 }
 
