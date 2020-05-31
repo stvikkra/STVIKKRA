@@ -2462,7 +2462,7 @@ a.nourish_link_grey:hover{
    #casestudieswrap {
     background-color: white;
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(30, 5vh);
@@ -2473,10 +2473,8 @@ a.nourish_link_grey:hover{
     grid-column-end: 13;
     grid-row-start: 4;
     grid-row-end: 5;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   #white_back {
@@ -2487,7 +2485,7 @@ a.nourish_link_grey:hover{
   }
 
   #case_study_title {
-    grid-column: 1 / 13;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
     color: #4A4A4A;
   }
@@ -2527,8 +2525,8 @@ a.nourish_link_grey:hover{
     grid-column-end: 13;
     margin: 0;
     padding: 0;
-    grid-row-start: 7;
-    grid-row-end: 17;
+    grid-row-start: 5;
+    grid-row-end: 21;
     display: flex;
     flex-direction: row;
     justify-content: center;
